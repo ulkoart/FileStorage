@@ -1,0 +1,311 @@
+/customcard {
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+          "success": true,
+          "body": {
+            "result": "SUCCESS",
+            "pid": "5804bb17-37c6-11ec-961d-c394b26445a3",
+            "flow": "debitCardOrder",
+            "state": "cardParams",
+            "output": {
+              "document": {
+                "documentId": "8599c0a8abbd40f89abe23b586a9a24d"
+              },
+              "screens": [
+                {
+                  "title": "cardParams",
+                  "properties": {
+                    "paramsForAnalytic": [
+                      "SegmentId:ssberkartadigital",
+                      "ProductId:mc_mb_sbk_digital_rub",
+                      "SystemId:W",
+                      "ClientSegment:1",
+                      "Status:OK",
+                      "DeliveryType:Virtual"
+                    ],
+                    "eventForAnalytic": "Settings"
+                  },
+                  "header": [
+                    {
+                      "type": "CoreNavBar",
+                      "title": "Параметры карты",
+                      "events": [
+                        {
+                          "cmd": "EXIT",
+                          "name": "exit",
+                          "title": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "widgets": [
+                    {
+                      "type": "DCPayAccount",
+                      "properties": {
+                        "divider": true,
+                        "hint": "hint",
+                        "headerSubtitle": "headerSubtitle"
+                      },
+                      "fields": [
+                        {
+                          "id": "debitCard:payAccount",
+                          "type": "select",
+                          "referenceId": "payAccounts",
+                          "value": "04173d99-66eb-4f3b-b3ef-e15049edabe1",
+                          "title": "Счёт карты",
+                          "readonly": false
+                        }
+                      ],
+                      "strategies": [
+                        {
+                          "fieldLookupId": "debitCard:payAccount",
+                          "type": "payAccount:analytics"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "DCCell",
+                      "properties": {
+                        "chevron": true
+                      },
+                      "fields": [
+                        {
+                          "id": "dcCell:fatca:residence",
+                          "type": "text",
+                          "value": "Только Россия",
+                          "title": "Налоговое резидентство"
+                        }
+                      ],
+                      "events": [
+                        {
+                          "cmd": "EVENT",
+                          "name": "changeFatca"
+                        }
+                      ]
+                    }
+                  ],
+                  "footer": [
+                    {
+                      "type": "CoreButtons",
+                      "events": [
+                        {
+                          "cmd": "EVENT",
+                          "name": "next",
+                          "title": "Продолжить",
+                          "description": "Переход на следующий экран"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "references": {
+                "payAccounts": {
+                  "properties": {
+                    "headerSubtitle": "Откройте новый или оформите карту к одному из ваших счетов"
+                  },
+                  "items": [
+                    {
+                      "value": "04173d99-66eb-4f3b-b3ef-e15049edabe1",
+                      "title": "Открыть новый",
+                      "properties": {
+                        "balance": "",
+                        "unavailableReason": "",
+                        "unavailable": false,
+                        "currency": "RUB",
+                        "detail": "в рублях",
+                        "type": "new"
+                      }
+                    },
+                    {
+                      "value": "879dcc6c-e00d-4202-9929-61eb06b932b7",
+                      "title": "Платёжный счёт •• 0385",
+                      "properties": {
+                        "balance": "-22",
+                        "unavailableReason": "",
+                        "unavailable": false,
+                        "currency": "RUB",
+                        "detail": "•• 0385",
+                        "type": "account"
+                      }
+                    },
+                    {
+                      "value": "0c1d3bf6-fb41-40a7-8dc8-656a9bc30b06",
+                      "title": "Платёжный счёт •• 0390",
+                      "properties": {
+                        "balance": "-22",
+                        "unavailableReason": "",
+                        "unavailable": false,
+                        "currency": "RUB",
+                        "detail": "•• 0390",
+                        "type": "account"
+                      }
+                    },
+                    {
+                      "value": "c350db0d-081c-4d85-a06e-7cdc38359c71",
+                      "title": "Платёжный счёт •• 0397",
+                      "properties": {
+                        "balance": "-22",
+                        "unavailableReason": "",
+                        "unavailable": false,
+                        "currency": "RUB",
+                        "detail": "•• 0397",
+                        "type": "account"
+                      }
+                    },
+                    {
+                      "value": "598d641d-a85f-48cf-969e-57b847eb9b0e",
+                      "title": "Платёжный счёт •• 0396",
+                      "properties": {
+                        "balance": "-22",
+                        "unavailableReason": "",
+                        "unavailable": false,
+                        "currency": "RUB",
+                        "detail": "•• 0396",
+                        "type": "account"
+                      }
+                    },
+                    {
+                      "value": "25a15c5b-c8c2-46d6-9fcb-6c44c81d7e6f",
+                      "title": "Платёжный счёт •• 0182",
+                      "properties": {
+                        "balance": "-22",
+                        "unavailableReason": "",
+                        "unavailable": false,
+                        "currency": "RUB",
+                        "detail": "•• 0182",
+                        "type": "account"
+                      }
+                    },
+                    {
+                      "value": "d00fe471-e703-4951-a160-9670636a7907",
+                      "title": "Платёжный счёт •• 9861",
+                      "properties": {
+                        "balance": "-22",
+                        "unavailableReason": "",
+                        "unavailable": false,
+                        "currency": "RUB",
+                        "detail": "•• 9861",
+                        "type": "account"
+                      }
+                    },
+                    {
+                      "value": "ca52633c-eae4-4596-8837-3e961b85bfeb",
+                      "title": "Платёжный счёт •• 0293",
+                      "properties": {
+                        "balance": "0",
+                        "unavailableReason": "",
+                        "unavailable": false,
+                        "currency": "RUB",
+                        "detail": "•• 0293",
+                        "type": "account"
+                      }
+                    },
+                    {
+                      "value": "31221a15-4c7d-48a6-a0b0-d289b9b3a4c5",
+                      "title": "Платёжный счёт •• 0177",
+                      "properties": {
+                        "balance": "-22",
+                        "unavailableReason": "",
+                        "unavailable": false,
+                        "currency": "RUB",
+                        "detail": "•• 0177",
+                        "type": "account"
+                      }
+                    },
+                    {
+                      "value": "58246ffd-66ba-4ef7-b86a-0267b0cb1163",
+                      "title": "Платёжный счёт •• 9085",
+                      "properties": {
+                        "balance": "-44",
+                        "unavailableReason": "",
+                        "unavailable": false,
+                        "currency": "RUB",
+                        "detail": "•• 9085",
+                        "type": "account"
+                      }
+                    },
+                    {
+                      "value": "963a1308-7b9d-49e6-8510-873bf80754a3",
+                      "title": "Платёжный счёт •• 9016",
+                      "properties": {
+                        "balance": "-44",
+                        "unavailableReason": "test",
+                        "unavailable": true,
+                        "currency": "RUB",
+                        "detail": "•• 9016",
+                        "type": "account"
+                      }
+                    },
+                    {
+                      "value": "282a8bb3-2be5-4f20-b290-156c657ea65d",
+                      "title": "Платёжный счёт •• 0384",
+                      "properties": {
+                        "balance": "-22",
+                        "unavailableReason": "test",
+                        "unavailable": true,
+                        "currency": "RUB",
+                        "detail": "•• 0384",
+                        "type": "account"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "history": [
+              {
+                "id": "5a5b7cb7-37c6-11ec-961d-29dcef25da83",
+                "flow": "debitCardOrder",
+                "state": "cardParams",
+                "title": "",
+                "status": "ACTIVE",
+                "flowId": 1
+              }
+            ]
+          }
+        },
+        "event_to_actions": {
+          "next": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "Подтверждаю",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "next",
+                  "parameters": {}
+                }
+              }
+            ]
+          },
+          "back": {
+            "actions": [
+              {
+                "type": "text",
+                "text": "В начало",
+                "should_send_to_backend": false
+              },
+              {
+                "type": "server_action",
+                "message_name": "SERVER_ACTION",
+                "server_action": {
+                  "action_id": "back",
+                  "parameters": {}
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
