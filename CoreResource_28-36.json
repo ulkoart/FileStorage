@@ -1,0 +1,1683 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+        "flow": "Example",
+        "state": "paymentInfo",
+        "output": {
+            "screens": [
+                {
+                    "title": "Пример",
+                    "type": "DSNScreen",
+                    "description": "Пример description",
+                    "header": [
+                        {
+                            "type": "CoreNavBar",
+                            "title": "Данные о взносе",
+                            "events": [
+                                {
+                                    "cmd": "EXIT",
+                                    "uri": "Диплинк на предыдущий экран",
+                                    "title": "На предыдущий экран",
+                                    "description": "Переход на предыдущий экран"
+                                }
+                            ]
+                        }
+                    ],
+                    "widgets": [
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Пример 28 из конфлюенса",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:text",
+                                    "type": "text",
+                                    "title": "Example CoreResource",
+                                    "value": "Пример из конфлюенса",
+                                    "readonly": true,
+                                    "description": "См ниже"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreResource",
+                            "readonly": false,
+                            "fields": [
+                                {
+                                    "id": "CoreResource:resourceSelect:source",
+                                    "title": "Заголовок CoreResource",
+                                    "type": "select",
+                                    "referenceId": "resourceList01",
+                                    "value": "id-card-1",
+                                    "readonly": false,
+                                    "style": "noicon",
+                                    "validators": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Пример 29 из конфлюенса",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:text",
+                                    "type": "text",
+                                    "title": "Example CoreResource",
+                                    "value": "Пример из конфлюенса",
+                                    "readonly": true,
+                                    "description": "См ниже"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreResource",
+                            "readonly": false,
+                            "fields": [
+                                {
+                                    "id": "CoreResource:resourceSelect:source:1",
+                                    "title": "Заголовок CoreResource",
+                                    "type": "select",
+                                    "referenceId": "resourceList02",
+                                    "value": "id-card-4",
+                                    "readonly": false,
+                                    "validators": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Пример 30 из конфлюенса",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:text",
+                                    "type": "text",
+                                    "title": "Example CoreResource",
+                                    "value": "Пример из конфлюенса",
+                                    "readonly": true,
+                                    "description": "См ниже"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:resource",
+                                    "type": "select",
+                                    "format": "resource",
+                                    "title": "Заголовок CoreResource",
+                                    "value": "id-card-4",
+                                    "readonly": false,
+                                    "referenceId": "resourceList03",
+                                    "description": "описание текстового поля"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Пример 31 из конфлюенса",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:text",
+                                    "type": "text",
+                                    "title": "Example CoreResource",
+                                    "value": "Пример из конфлюенса",
+                                    "readonly": true,
+                                    "description": "См ниже"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:resource",
+                                    "type": "select",
+                                    "format": "resource",
+                                    "title": "Заголовок CoreResource",
+                                    "value": "id-card-4",
+                                    "readonly": false,
+                                    "referenceId": "resourceList04",
+                                    "description": "описание текстового поля"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Пример 32 из конфлюенса",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:text",
+                                    "type": "text",
+                                    "title": "Example CoreResource",
+                                    "value": "Пример из конфлюенса",
+                                    "readonly": true,
+                                    "description": "См ниже"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreResource",
+                            "description": "",
+                            "readonly": false,
+                            "fields": [
+                                {
+                                    "id": "CoreResource:resourceSelect:source:1",
+                                    "title": "Заголовок CoreResource",
+                                    "type": "select",
+                                    "referenceId": "resourceList05",
+                                    "value": "id-card-1",
+                                    "readonly": false,
+                                    "validators": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Пример 33 из конфлюенса",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:text",
+                                    "type": "text",
+                                    "title": "Example CoreResource",
+                                    "value": "Пример из конфлюенса",
+                                    "readonly": true,
+                                    "description": "См ниже"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreResource",
+                            "description": "",
+                            "readonly": false,
+                            "fields": [
+                                {
+                                    "id": "CoreResource:resourceSelect:source:1",
+                                    "title": "Заголовок CoreResource",
+                                    "type": "select",
+                                    "referenceId": "resourceList06",
+                                    "value": "id-card-4",
+                                    "readonly": false,
+                                    "validators": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Пример 34 из конфлюенса",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:text",
+                                    "type": "text",
+                                    "title": "Example CoreResource",
+                                    "value": "Пример из конфлюенса",
+                                    "readonly": true,
+                                    "description": "См ниже"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreResource",
+                            "description": "",
+                            "readonly": false,
+                            "fields": [
+                                {
+                                    "id": "CoreResource:resourceSelect:source:1",
+                                    "title": "Заголовок CoreResource",
+                                    "type": "select",
+                                    "referenceId": "resourceList07",
+                                    "value": "id-card-5",
+                                    "readonly": false,
+                                    "validators": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Пример 35 из конфлюенса",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:text",
+                                    "type": "text",
+                                    "title": "Example CoreResource",
+                                    "value": "Пример из конфлюенса",
+                                    "readonly": true,
+                                    "description": "См ниже"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreResource",
+                            "description": "",
+                            "readonly": false,
+                            "fields": [
+                                {
+                                    "id": "CoreResource:resourceSelect:source:1",
+                                    "title": "Заголовок CoreResource",
+                                    "type": "select",
+                                    "referenceId": "resourceList08",
+                                    "value": "id-card-1",
+                                    "readonly": false,
+                                    "validators": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Пример 36 из конфлюенса",
+                            "fields": [
+                                {
+                                    "id": "fieldSet:text",
+                                    "type": "text",
+                                    "title": "Example CoreResource",
+                                    "value": "Пример из конфлюенса",
+                                    "readonly": true,
+                                    "description": "См ниже"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreResource",
+                            "description": "",
+                            "readonly": false,
+                            "fields": [
+                                {
+                                    "id": "CoreResource:resourceSelect:source:1",
+                                    "title": "Заголовок CoreResource",
+                                    "type": "select",
+                                    "referenceId": "resourceList09",
+                                    "value": "id-card-1",
+                                    "readonly": false,
+                                    "validators": []
+                                }
+                            ]
+                        }
+                    ],
+                    "footer": [
+                        {
+                            "type": "CoreButtons",
+                            "events": [
+                                {
+                                    "uri": "nav:next",
+                                    "title": "Продолжить",
+                                    "description": "Переход на следующий экран"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "references": {
+                "resourceList01": {
+                    "properties": {
+                        "title": ""
+                    },
+                    "items": [
+                        {
+                            "title": "test1",
+                            "value": "id-card-1",
+                            "properties": {
+                                "title": "Visa Classic RK1",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4545",
+                                "currency": "RUB",
+                                "balance": "1000000",
+                                "additionalInfo": "инфо",
+                                "style": "mc_36_visa_gold"
+                            }
+                        },
+                        {
+                            "title": "test2",
+                            "value": "id-card-2",
+                            "properties": {
+                                "title": "Visa Classic RK2",
+                                "type": "card",
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4545",
+                                "currency": "USD",
+                                "balance": "15000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "false",
+                                "style": "mc_36_visa"
+                            }
+                        },
+                        {
+                            "title": "test3",
+                            "value": "id-card-3",
+                            "properties": {
+                                "title": "Visa Classic RK3",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4545",
+                                "currency": "EUR",
+                                "balance": "10000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "true",
+                                "style": "card"
+                            }
+                        }
+                    ]
+                },
+                "resourceList02": {
+                    "properties": {
+                        "title": ""
+                    },
+                    "items": [
+                        {
+                            "title": "test1",
+                            "value": "id-card-1",
+                            "properties": {
+                                "title": "Visa Classic RK1",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4500",
+                                "currency": "RUB",
+                                "balance": "1000000",
+                                "additionalInfo": "инфо",
+                                "style": "mc_36_visa_gold"
+                            }
+                        },
+                        {
+                            "title": "test2",
+                            "value": "id-card-2",
+                            "properties": {
+                                "title": "Visa Classic RK2",
+                                "type": "card",
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4879",
+                                "currency": "USD",
+                                "balance": "15000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "false",
+                                "style": "mc_36_visa"
+                            }
+                        },
+                        {
+                            "title": "test3",
+                            "value": "id-card-3",
+                            "properties": {
+                                "title": "Visa Classic RK3",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4666",
+                                "currency": "EUR",
+                                "balance": "10000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "true",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test4",
+                            "value": "id-card-4",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4444",
+                                "currency": "RUB",
+                                "balance": "98765",
+                                "additionalInfo": "Дополнительная информация",
+                                "style": "mc_36_visa_premium",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        }
+                    ]
+                },
+                "resourceList03": {
+                    "properties": {
+                        "title": ""
+                    },
+                    "items": [
+                        {
+                            "title": "test1",
+                            "value": "id-card-1",
+                            "properties": {
+                                "title": "Visa Classic RK1",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4500",
+                                "currency": "RUB",
+                                "balance": "1000000",
+                                "additionalInfo": "инфо",
+                                "style": "mc_36_visa_gold   "
+                            }
+                        },
+                        {
+                            "title": "test2",
+                            "value": "id-card-2",
+                            "properties": {
+                                "title": "Visa Classic RK2",
+                                "type": "card",
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4879",
+                                "currency": "USD",
+                                "balance": "15000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "false",
+                                "style": "mc_36_visa"
+                            }
+                        },
+                        {
+                            "title": "test3",
+                            "value": "id-card-3",
+                            "properties": {
+                                "title": "Visa Classic RK3",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4666",
+                                "currency": "EUR",
+                                "balance": "10000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "true",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test4",
+                            "value": "id-card-4",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4444",
+                                "currency": "RUB",
+                                "balance": "98765",
+                                "additionalInfo": "Дополнительная информация",
+                                "style": "mc_36_visa_premium",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test5",
+                            "value": "id-card-5",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa digital",
+                                "maskedNumber": "•••• 4001",
+                                "currency": "RUB",
+                                "balance": "5000",
+                                "state": "warning4",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_digital",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test6",
+                            "value": "id-card-6",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 4004",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "state": "warning4",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3",
+                                "sectionTitle": "SectionTitle02"
+                            }
+                        }
+                    ]
+                },
+                "resourceList04": {
+                    "properties": {
+                        "title": ""
+                    },
+                    "items": [
+                        {
+                            "title": "test1",
+                            "value": "id-card-1",
+                            "properties": {
+                                "title": "Visa Classic RK1",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4500",
+                                "currency": "RUB",
+                                "balance": "1000000",
+                                "additionalInfo": "инфо",
+                                "style": "mc_36_visa_gold   "
+                            }
+                        },
+                        {
+                            "title": "test2",
+                            "value": "id-card-2",
+                            "properties": {
+                                "title": "Visa Classic RK2",
+                                "type": "card",
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4879",
+                                "currency": "USD",
+                                "balance": "15000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "false",
+                                "style": "mc_36_visa"
+                            }
+                        },
+                        {
+                            "title": "test3",
+                            "value": "id-card-3",
+                            "properties": {
+                                "title": "Visa Classic RK3",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4666",
+                                "currency": "EUR",
+                                "balance": "10000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "true",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test4",
+                            "value": "id-card-4",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4444",
+                                "currency": "RUB",
+                                "balance": "98765",
+                                "additionalInfo": "Дополнительная информация",
+                                "style": "mc_36_visa_premium"
+                            }
+                        },
+                        {
+                            "title": "test5",
+                            "value": "id-card-5",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa digital",
+                                "maskedNumber": "•••• 4001",
+                                "currency": "RUB",
+                                "balance": "5000",
+                                "state": "warning2",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_digital"
+                            }
+                        },
+                        {
+                            "title": "test6",
+                            "value": "id-card-6",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 4004",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "state": "warning4",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3"
+                            }
+                        },
+                        {
+                            "title": "test7",
+                            "value": "id-card-7",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Сберегательный вклад",
+                                "maskedNumber": "•••• 03002",
+                                "currency": "RUB",
+                                "balance": "10000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account"
+                            }
+                        },
+                        {
+                            "title": "test8",
+                            "value": "id-card-8",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Вклад Новый год",
+                                "maskedNumber": "•••• 03001",
+                                "currency": "RUB",
+                                "balance": "99000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account"
+                            }
+                        }
+                    ]
+                },
+                "resourceList05": {
+                    "properties": {
+                        "title": ""
+                    },
+                    "items": [
+                        {
+                            "title": "test1",
+                            "value": "id-card-1",
+                            "properties": {
+                                "title": "Visa Classic RK1",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4500",
+                                "currency": "RUB",
+                                "balance": "1000000",
+                                "additionalInfo": "инфо",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test2",
+                            "value": "id-card-2",
+                            "properties": {
+                                "title": "Visa Classic RK2",
+                                "type": "card",
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4879",
+                                "currency": "USD",
+                                "balance": "15000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "false",
+                                "style": "mc_36_visa"
+                            }
+                        },
+                        {
+                            "title": "test3",
+                            "value": "id-card-3",
+                            "properties": {
+                                "title": "Visa Classic RK3",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4666",
+                                "currency": "EUR",
+                                "balance": "10000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "true",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test4",
+                            "value": "id-card-4",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4444",
+                                "currency": "RUB",
+                                "balance": "98765",
+                                "additionalInfo": "Дополнительная информация",
+                                "style": "mc_36_visa_premium",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test5",
+                            "value": "id-card-5",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa digital",
+                                "maskedNumber": "•••• 4001",
+                                "currency": "RUB",
+                                "balance": "5000",
+                                "state": "warning2",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_digital",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test6",
+                            "value": "id-card-6",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 4004",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "state": "warning4",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3"
+                            }
+                        },
+                        {
+                            "title": "test7",
+                            "value": "id-card-7",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Сберегательный вклад",
+                                "maskedNumber": "•••• 03002",
+                                "currency": "RUB",
+                                "balance": "10000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account"
+                            }
+                        },
+                        {
+                            "title": "test8",
+                            "value": "id-card-8",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Вклад Новый год",
+                                "maskedNumber": "•••• 03001",
+                                "currency": "RUB",
+                                "balance": "99000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        }
+                    ]
+                },
+                "resourceList06": {
+                    "properties": {
+                        "title": ""
+                    },
+                    "items": [
+                        {
+                            "title": "test1",
+                            "value": "id-card-1",
+                            "properties": {
+                                "title": "Visa Classic RK1",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4500",
+                                "currency": "RUB",
+                                "balance": "1000000",
+                                "additionalInfo": "инфо",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test2",
+                            "value": "id-card-2",
+                            "properties": {
+                                "title": "Visa Classic RK2",
+                                "type": "card",
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4879",
+                                "currency": "USD",
+                                "balance": "15000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "false",
+                                "style": "mc_36_visa"
+                            }
+                        },
+                        {
+                            "title": "test3",
+                            "value": "id-card-3",
+                            "properties": {
+                                "title": "Visa Classic RK3",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4666",
+                                "currency": "EUR",
+                                "balance": "10000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "true",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test4",
+                            "value": "id-card-4",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4444",
+                                "currency": "RUB",
+                                "balance": "98765",
+                                "additionalInfo": "Дополнительная информация",
+                                "style": "mc_36_visa_premium",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test5",
+                            "value": "id-card-5",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa digital",
+                                "maskedNumber": "•••• 4001",
+                                "currency": "RUB",
+                                "balance": "5000",
+                                "state": "warning2",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_digital",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test6",
+                            "value": "id-card-6",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 4004",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "state": "warning4",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3"
+                            }
+                        },
+                        {
+                            "title": "test7",
+                            "value": "id-card-7",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Сберегательный вклад",
+                                "maskedNumber": "•••• 03002",
+                                "currency": "RUB",
+                                "balance": "10000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account"
+                            }
+                        },
+                        {
+                            "title": "test8",
+                            "value": "id-card-8",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Вклад Новый год",
+                                "maskedNumber": "•••• 03001",
+                                "currency": "RUB",
+                                "balance": "99000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test9",
+                            "value": "id-card-9",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 7987",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3",
+                                "sectionTitle": "SectionTitle02"
+                            }
+                        },
+                        {
+                            "title": "test10",
+                            "value": "id-card-10",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Вклад Новый год",
+                                "maskedNumber": "•••• 03009",
+                                "currency": "RUB",
+                                "balance": "99000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account",
+                                "sectionTitle": "SectionTitle02"
+                            }
+                        }
+                    ]
+                },
+                "resourceList07": {
+                    "properties": {
+                        "title": ""
+                    },
+                    "items": [
+                        {
+                            "title": "test1",
+                            "value": "id-card-1",
+                            "properties": {
+                                "title": "Visa Classic RK1",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4500",
+                                "currency": "RUB",
+                                "balance": "1000000",
+                                "additionalInfo": "инфо",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test2",
+                            "value": "id-card-2",
+                            "properties": {
+                                "title": "Visa Classic RK2",
+                                "type": "card",
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4879",
+                                "currency": "USD",
+                                "balance": "15000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "false",
+                                "style": "mc_36_visa"
+                            }
+                        },
+                        {
+                            "title": "test3",
+                            "value": "id-card-3",
+                            "properties": {
+                                "title": "Visa Classic RK3",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4666",
+                                "currency": "EUR",
+                                "balance": "10000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "true",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test4",
+                            "value": "id-card-4",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4444",
+                                "currency": "RUB",
+                                "balance": "98765",
+                                "additionalInfo": "Дополнительная информация",
+                                "style": "mc_36_visa_premium"
+                            }
+                        },
+                        {
+                            "title": "test5",
+                            "value": "id-card-5",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa digital",
+                                "maskedNumber": "•••• 4001",
+                                "currency": "RUB",
+                                "balance": "5000",
+                                "state": "warning2",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_digital"
+                            }
+                        },
+                        {
+                            "title": "test6",
+                            "value": "id-card-6",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 4004",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "state": "warning4",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3"
+                            }
+                        },
+                        {
+                            "title": "test7",
+                            "value": "id-card-7",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Сберегательный вклад",
+                                "maskedNumber": "•••• 03002",
+                                "currency": "RUB",
+                                "balance": "10000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account"
+                            }
+                        },
+                        {
+                            "title": "test8",
+                            "value": "id-card-8",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Вклад Новый год",
+                                "maskedNumber": "•••• 03001",
+                                "currency": "RUB",
+                                "balance": "99000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account"
+                            }
+                        },
+                        {
+                            "title": "test9",
+                            "value": "id-card-9",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 7987",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3"
+                            }
+                        },
+                        {
+                            "title": "test10",
+                            "value": "id-card-10",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Вклад Новый год",
+                                "maskedNumber": "•••• 03009",
+                                "currency": "RUB",
+                                "balance": "99000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account"
+                            }
+                        },
+                        {
+                            "title": "test11",
+                            "value": "id-card-11",
+                            "properties": {
+                                "title": "Транзакционный счет",
+                                "type": "PayAccount",
+                                "name": "Транзакционный счет 1",
+                                "maskedNumber": "•••• 1111",
+                                "currency": "RUB",
+                                "balance": "1099000",
+                                "state": "warning3",
+                                "additionalInfo": "Совокупность карт",
+                                "unavailable": "false",
+                                "style": "payAccountRuble"
+                            }
+                        },
+                        {
+                            "title": "test12",
+                            "value": "id-payAccount-12",
+                            "properties": {
+                                "title": "Транзакционный счет",
+                                "type": "payAccount",
+                                "name": "Транзакционный счет 2",
+                                "maskedNumber": "•••• 2222",
+                                "currency": "USD",
+                                "balance": "100 000",
+                                "state": "warning2",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "false",
+                                "style": "payAccountUsd"
+                            }
+                        },
+                        {
+                            "title": "test13",
+                            "value": "id-payAccount-13",
+                            "properties": {
+                                "title": "Транзакционный счет",
+                                "type": "payAccount",
+                                "name": "Транзакционный счет 3",
+                                "maskedNumber": "•••• 3333",
+                                "currency": "EUR",
+                                "balance": "15 000",
+                                "state": "warning1",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "false",
+                                "style": "payAccountEuro"
+                            }
+                        }
+                    ]
+                },
+                "resourceList08": {
+                    "properties": {
+                        "title": ""
+                    },
+                    "items": [
+                        {
+                            "title": "test1",
+                            "value": "id-card-1",
+                            "properties": {
+                                "title": "Visa Classic RK1",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4500",
+                                "currency": "RUB",
+                                "balance": "1000000",
+                                "additionalInfo": "инфо",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test2",
+                            "value": "id-card-2",
+                            "properties": {
+                                "title": "Visa Classic RK2",
+                                "type": "card",
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4879",
+                                "currency": "USD",
+                                "balance": "15000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "false",
+                                "style": "mc_36_visa"
+                            }
+                        },
+                        {
+                            "title": "test3",
+                            "value": "id-card-3",
+                            "properties": {
+                                "title": "Visa Classic RK3",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4666",
+                                "currency": "EUR",
+                                "balance": "10000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "true",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test4",
+                            "value": "id-card-4",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4444",
+                                "currency": "RUB",
+                                "balance": "98765",
+                                "additionalInfo": "Дополнительная информация",
+                                "style": "mc_36_visa_premium",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test5",
+                            "value": "id-card-5",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa digital",
+                                "maskedNumber": "•••• 4001",
+                                "currency": "RUB",
+                                "balance": "5000",
+                                "state": "warning2",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_digital",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test6",
+                            "value": "id-card-6",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 4004",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "state": "warning4",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3"
+                            }
+                        },
+                        {
+                            "title": "test7",
+                            "value": "id-card-7",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Сберегательный вклад",
+                                "maskedNumber": "•••• 03002",
+                                "currency": "RUB",
+                                "balance": "10000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account"
+                            }
+                        },
+                        {
+                            "title": "test8",
+                            "value": "id-card-8",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Вклад Новый год",
+                                "maskedNumber": "•••• 03001",
+                                "currency": "RUB",
+                                "balance": "99000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test9",
+                            "value": "id-card-9",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 7987",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3"
+                            }
+                        },
+                        {
+                            "title": "test10",
+                            "value": "id-card-10",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Вклад Новый год",
+                                "maskedNumber": "•••• 03009",
+                                "currency": "RUB",
+                                "balance": "99000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account"
+                            }
+                        },
+                        {
+                            "title": "test11",
+                            "value": "id-card-11",
+                            "properties": {
+                                "title": "Транзакционный счет",
+                                "type": "PayAccount",
+                                "name": "Транзакционный счет 1",
+                                "maskedNumber": "•••• 1111",
+                                "currency": "RUB",
+                                "balance": "1099000",
+                                "state": "warning3",
+                                "additionalInfo": "Совокупность карт",
+                                "unavailable": "false",
+                                "style": "payAccountRuble",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test12",
+                            "value": "id-payAccount-12",
+                            "properties": {
+                                "title": "Транзакционный счет",
+                                "type": "payAccount",
+                                "name": "Транзакционный счет 2",
+                                "maskedNumber": "•••• 2222",
+                                "currency": "USD",
+                                "balance": "100 000",
+                                "state": "warning2",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "false",
+                                "style": "payAccountUsd"
+                            }
+                        },
+                        {
+                            "title": "test13",
+                            "value": "id-payAccount-13",
+                            "properties": {
+                                "title": "Транзакционный счет",
+                                "type": "payAccount",
+                                "name": "Транзакционный счет 3",
+                                "maskedNumber": "•••• 3333",
+                                "currency": "EUR",
+                                "balance": "15 000",
+                                "state": "warning1",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "false",
+                                "style": "payAccountEuro"
+                            }
+                        }
+                    ]
+                },
+                "resourceList09": {
+                    "properties": {
+                        "title": ""
+                    },
+                    "items": [
+                        {
+                            "title": "test1",
+                            "value": "id-card-1",
+                            "properties": {
+                                "title": "Visa Classic RK1",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4500",
+                                "currency": "RUB",
+                                "balance": "1000000",
+                                "additionalInfo": "инфо",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test2",
+                            "value": "id-card-2",
+                            "properties": {
+                                "title": "Visa Classic RK2",
+                                "type": "card",
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4879",
+                                "currency": "USD",
+                                "balance": "15000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "false",
+                                "style": "mc_36_visa"
+                            }
+                        },
+                        {
+                            "title": "test3",
+                            "value": "id-card-3",
+                            "properties": {
+                                "title": "Visa Classic RK3",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4666",
+                                "currency": "EUR",
+                                "balance": "10000",
+                                "state": "warning4",
+                                "additionalInfo": "Дополнительная информация",
+                                "unavailable": "true",
+                                "style": "card"
+                            }
+                        },
+                        {
+                            "title": "test4",
+                            "value": "id-card-4",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "name": "Visa Classic",
+                                "maskedNumber": "•••• 4444",
+                                "currency": "RUB",
+                                "balance": "98765",
+                                "additionalInfo": "Дополнительная информация",
+                                "style": "mc_36_visa_premium",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test5",
+                            "value": "id-card-5",
+                            "properties": {
+                                "title": "Visa Classic RK4",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa digital",
+                                "maskedNumber": "•••• 4001",
+                                "currency": "RUB",
+                                "balance": "5000",
+                                "state": "warning2",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_digital",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test6",
+                            "value": "id-card-6",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 4004",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "state": "warning4",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3"
+                            }
+                        },
+                        {
+                            "title": "test7",
+                            "value": "id-card-7",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Сберегательный вклад",
+                                "maskedNumber": "•••• 03002",
+                                "currency": "RUB",
+                                "balance": "10000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account"
+                            }
+                        },
+                        {
+                            "title": "test8",
+                            "value": "id-card-8",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Вклад Новый год",
+                                "maskedNumber": "•••• 03001",
+                                "currency": "RUB",
+                                "balance": "99000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account",
+                                "sectionTitle": "SectionTitle01"
+                            }
+                        },
+                        {
+                            "title": "test9",
+                            "value": "id-card-9",
+                            "properties": {
+                                "title": "Visa Classic RK",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "visa",
+                                "name": "Visa travel",
+                                "maskedNumber": "•••• 7987",
+                                "currency": "RUB",
+                                "balance": "20000",
+                                "additionalInfo": "New",
+                                "unavailable": "true",
+                                "style": "mc_36_visa_travel_level_3",
+                                "sectionTitle": "SectionTitle02"
+                            }
+                        },
+                        {
+                            "title": "test10",
+                            "value": "id-card-10",
+                            "properties": {
+                                "title": "Вклад",
+                                "type": "account",
+                                "name": "Вклад Новый год",
+                                "maskedNumber": "•••• 03009",
+                                "currency": "RUB",
+                                "balance": "99000",
+                                "state": "warning3",
+                                "additionalInfo": "Вклад пополняемый",
+                                "unavailable": "false",
+                                "style": "account",
+                                "sectionTitle": "SectionTitle02"
+                            }
+                        },
+                        {
+                            "title": "test11",
+                            "value": "id-card-11",
+                            "properties": {
+                                "title": "Транзакционный счет",
+                                "type": "PayAccount",
+                                "name": "Транзакционный счет 1",
+                                "maskedNumber": "•••• 1111",
+                                "currency": "RUB",
+                                "balance": "1099000",
+                                "state": "warning3",
+                                "additionalInfo": "Совокупность карт",
+                                "unavailable": "false",
+                                "style": "payAccountRuble"
+                            }
+                        },
+                        {
+                            "title": "test12",
+                            "value": "id-payAccount-12",
+                            "properties": {
+                                "title": "Транзакционный счет",
+                                "type": "payAccount",
+                                "name": "Транзакционный счет 2",
+                                "maskedNumber": "•••• 2222",
+                                "currency": "USD",
+                                "balance": "100 000",
+                                "state": "warning2",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "false",
+                                "style": "payAccountUsd"
+                            }
+                        },
+                        {
+                            "title": "test13",
+                            "value": "id-payAccount-13",
+                            "properties": {
+                                "title": "Транзакционный счет",
+                                "type": "payAccount",
+                                "name": "Транзакционный счет 3",
+                                "maskedNumber": "•••• 3333",
+                                "currency": "EUR",
+                                "balance": "15 000",
+                                "state": "warning1",
+                                "additionalInfo": "Инфо",
+                                "unavailable": "false",
+                                "style": "payAccountEuro",
+                                "sectionTitle": "SectionTitle02"
+                                  }
+                              }
+                          ]
+                      }
+                  }
+            }
+          }
+        }
+      }      
+    } 
+  ]
+}
