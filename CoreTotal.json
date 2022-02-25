@@ -1,0 +1,195 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+
+          "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+    "flow": "DemoCoreTotal",
+    "state": "state0",
+    "output": {
+      "screens": [
+        {
+          "title": "CoreTotal",
+          "header": [
+            {
+              "type": "CoreNavBar",
+              "title": "CoreTotal",
+              "events": [
+                {
+                  "cmd": "EXIT"
+                }
+              ]
+            }
+          ],
+          "widgets": [
+            {
+              "type": "CoreFieldSet",
+              "description": "",
+              "readonly": false,
+              "title": "Введите сумму перевода",
+              "fields": [
+                {
+                  "id": "fieldSet:transfer",
+                  "type": "text",
+                  "readonly": false,
+                  "title": "Введите сумму перевода",
+                  "style": "noicon_with_underline",
+                  "validators": []
+                }
+              ]
+            },
+            {
+              "type": "CoreTotal",
+              "title": "Сумма списания",
+              "properties": {
+                "referenceId": "commissions",
+                "remoteLookupFieldIds": [
+                  "fieldSet:transfer"
+                ],
+                "recalcErrorMsg": "Не удалось рассчитать комиссию",
+                "recalcProgressMsg": "Идёт рассчёт комиссии",
+                "asideTitle": "Комиссия"
+              },
+              "fields": []
+            }
+          ],
+          "footer": [
+            {
+              "type": "CoreButtons",
+              "events": [
+                {
+                  "uri": "nav:next",
+                  "title": "Продолжить",
+                  "description": "Переход на следующий экран"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CoreTotal",
+          "header": [
+            {
+              "type": "CoreNavBar",
+              "title": "CoreTotal",
+              "events": [
+                {
+                  "cmd": "nav:back"
+                }
+              ]
+            }
+          ],
+          "widgets": [
+            {
+              "type": "CoreResource",
+              "properties": {},
+              "fields": [
+                {
+                  "id": "resourceSelect:source",
+                  "type": "select",
+                  "referenceId": "resourceList",
+                  "value": "card:104",
+                  "title": "Счет списания денег",
+                  "validators": []
+                }
+              ]
+            },
+            {
+              "type": "CoreTotal",
+              "title": "Сумма списания",
+              "properties": {
+                "referenceId": "commissionsForResource",
+                "localLookupFieldId": "resourceSelect:source",
+                "recalcErrorMsg": "Не удалось рассчитать комиссию",
+                "recalcProgressMsg": "Идёт рассчёт комиссии",
+                "asideTitle": "Комиссия"
+              },
+              "fields": []
+            }
+          ]
+        }
+      ],
+      "references": {
+        "commissions": {
+          "properties": {
+            "url": "http://0.0.0.0:80/",
+            "debounce": 1000
+          }
+        },
+        "commissionsForResource": {
+          "items": [
+            {
+              "title": "540 руб.",
+              "value": "card:104",
+              "properties": {
+                "commissionAmount": "40",
+                "commissionCurrency": "EUR",
+                "totalAmount": "540",
+                "totalCurrency": "RUB"
+              }
+            },
+            {
+              "title": "511,14 руб.",
+              "value": "card:101",
+              "properties": {
+                "commissionAmount": "11.14",
+                "commissionCurrency": "RUB",
+                "totalAmount": "511,14",
+                "totalCurrency": "EUR"
+              }
+            }
+          ]
+        },
+        "resourceList": {
+          "properties": {},
+          "items": [
+            {
+              "value": "card:104",
+              "readonly": true,
+              "properties": {
+                "title": "Зарплатная",
+                "type": "card",
+                "isCredit": false,
+                "paymentSystem": "Visa",
+                "name": "Visa Classic",
+                "maskedNumber": "0000 00** **** 0000",
+                "currency": "RUB",
+                "balance": "22846"
+              }
+            },
+            {
+              "value": "card:101",
+              "readonly": true,
+              "properties": {
+                "title": "Зарплатная",
+                "type": "card",
+                "isCredit": false,
+                "paymentSystem": "MasterCard",
+                "name": "MasterCard Mass",
+                "maskedNumber": "0000 01** **** 0001",
+                "currency": "RUB",
+                "balance": "15000.10"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+         
+    } 
+                }
+              }
+          
+        
+        
+      
+  
+  ]
+}
