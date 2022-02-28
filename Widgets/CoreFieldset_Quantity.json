@@ -1,0 +1,59 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "flow": "pensionTransfer",
+        "state": "userInfo",
+        "pid": "pid",
+        "output": {
+            "screens": [{
+                "header": [{
+                    "type": "CoreNavBar",
+                    "title": "coreFieldSet: quantity",
+                    "description": "coreFieldSet: quantity",
+                    "properties": {
+                        "icon": "cancel"
+                    },
+                    "events": [{
+                        "cmd": "EXIT"
+                    }]
+                }],
+                "widgets": [
+                    {
+                        "type":"CoreFieldSet",
+                        "description":"",
+                        "fields":[
+                           {
+                              "id":"fieldSet:quantity",
+                              "type":"text",
+                              "format":"quantity",
+                              "title":"Ввод количества с кнопками + и -",
+                              "readonly":false,
+                              "description":"описание текстового поля",
+                              "formatConfig":"2"
+                           }
+                        ]
+                     }
+                ],
+                "footer": [
+                ]
+            }]
+        }
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

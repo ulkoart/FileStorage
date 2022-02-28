@@ -1,0 +1,54 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+   "success": true,
+   "body": {
+       "result": "SUCCESS",
+       "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+       "flow": "DemoCoreMoney",
+       "state": "state0",
+       "output": {
+           "screens": [{
+               "title": "CoreFieldSet: template",
+               "header": [{
+                   "type": "CoreNavBar",
+                   "title": "CoreFieldSet: template",
+                   "events": [{
+                       "cmd": "EXIT"
+                   }]
+               }],
+               "widgets": [
+                {
+                    "type":"CoreFieldSet",
+                    "description":"",
+                    "fields":[
+                       {
+                          "id":"fieldSet:formattedText",
+                          "type":"text",
+                          "format":"formattedText",
+                          "title":"Форматированный ввод по шаблону",
+                          "readonly":false,
+                          "description":"описание текстового поля",
+                          "formatConfig":"[SSSS]-[00]-[S]"
+                       }
+                    ]
+                 }
+               ]
+           }]
+       }
+   }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

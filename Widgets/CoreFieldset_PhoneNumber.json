@@ -1,0 +1,61 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "flow": "pensionTransfer",
+        "state": "userInfo",
+        "pid": "pid",
+        "output": {
+            "screens": [{
+                "header": [{
+                    "type": "CoreNavBar",
+                    "title": "coreFieldSet: phone",
+                    "description": "coreFieldSet: phone",
+                    "properties": {
+                        "icon": "cancel"
+                    },
+                    "events": [{
+                        "cmd": "EXIT"
+                    }]
+                }],
+                "widgets": [
+                    {
+                       "type":"CoreFieldSet",
+                       "description":"",
+                       "fields":[
+                          {
+                             "id":"fieldSet:Phone",
+                             "type":"text",
+                             "title":"Ввод номера телефона",
+                             "value":"",
+                             "format":"phone",
+                             "readonly":false,
+                             "description":"описание текстового поля",
+                             "style":"Phone",
+                             "formatConfig":"+7([000]) [00] [00] [00]"
+                          }
+                       ]
+                    }
+                ],
+                "footer": [
+                ]
+            }]
+        }
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

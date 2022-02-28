@@ -1,0 +1,383 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+        "flow": "DSNWidgetSandbox",
+        "state": "widgets",
+        "output": {
+            "screens": [
+                {
+                    "title": "Виджеты",
+                    "type": "DSNScreen",
+                    "header": [
+                        {
+                            "type": "CoreNavBar",
+                            "title": "Виджеты",
+                            "events": [
+                                {
+                                    "cmd": "EXIT",
+                                    "title": "На предыдущий экран",
+                                    "description": "Переход на предыдущий экран"
+                                }
+                            ]
+                        }
+                    ],
+                    "widgets": [
+
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Текстовые поля",
+                            "readonly": false,
+                            "fields": [
+                                {
+                                    "id": "fieldSet:text",
+                                    "value": "0",
+                                    "type": "text",
+                                    "title": "ТЕКСТОВОЕ ПОЛЕ",
+                                    "value": " текст по умолчанию",
+                                    "description": "описание текстового поля", 
+                                    "validators": [
+                                        {
+                                            "type": "required",
+                                            "value": "",
+                                            "message": "Поле обязательно для заполнения"
+                                        },
+                                        {
+
+                                            "type": "minLength",
+                                            "value": "20",
+                                            "message": "Максимальное количество символов - 20"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "fieldSet:decimal",
+                                    "value": "0",
+                                    "type": "text",
+                                    "format": "decimal",
+                                    "title": "ЧИСЛО С РАЗДЕЛИТЕЛЕМ",
+                                    "value": " 0999,23",
+                                    "readonly": false,
+                                    "formatConfig":"2",
+                                    "description": "описание текстового поля", 
+                                    "validators": [
+                                        {
+                                            "type": "required",
+                                            "value": "",
+                                            "message": "Поле обязательно для заполнения"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "fieldSet:integer",
+                                    "value": "0",
+                                    "type": "text",
+                                    "format": "integer",
+                                    "title": "Ввод целого числа со знаком",
+                                    "value": " 0123490",
+                                    "readonly": false,
+                                    "formatConfig":"2",
+                                    "description": "описание текстового поля"
+                                },
+                                {
+                                    "id": "fieldSet:date",
+                                    "value": "0",
+                                    "type": "text",
+                                    "format": "date",
+                                    "title": "Выбор полной даты (число, месяц, год)",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "style": "calendar"
+                                },
+                                {
+                                    "id": "fieldSet:year",
+                                    "type": "text",
+                                    "format": "year",
+                                    "title": "Выбор года",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "style": "calendar"
+                                },
+                                {
+                                    "id": "fieldSet:month",
+                                    "value": "0",
+                                    "type": "text",
+                                    "format": "month",
+                                    "title": "Выбор года и месяца",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "style": "calendar"
+                                },
+                                {
+                                    "id": "fieldSet:quarter",
+                                    "type": "text",
+                                    "format": "quarter",
+                                    "title": "Выбор года и квартала",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "style": "calendar"
+                                },
+                                {
+                                    "id": "fieldSet:time",
+                                    "type": "text",
+                                    "format": "time",
+                                    "title": "Выбор времени",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "style": "calendar"
+                                },
+                                {
+                                    "id": "fieldSet:email",
+                                    "type": "text",
+                                    "format": "email",
+                                    "title": "Выбор электронной почты",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "style": "email"
+                                },
+                                {
+                                    "id": "fieldSet:formattedText",
+                                    "type": "text",
+                                    "format": "formattedText",
+                                    "title": "Форматированный ввод по шаблону",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "formatConfig": "[SSSS]-[00]-[S]"
+                                },
+                                {
+                                    "id": "fieldSet:formattedNumber",
+                                    "type": "text",
+                                    "format": "formattedNumber",
+                                    "title": "Форматированный ввод цифр по шаблону",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "formatConfig": "+7([000]) [00] [00] [00]"
+                                },
+                                {
+                                    "id": "fieldSet:quantity",
+                                    "type": "text",
+                                    "format": "quantity",
+                                    "title": "Ввод количества с кнопками + и -",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "formatConfig": "2"
+                                },
+                                {
+                                    "id": "fieldSet:resource",
+                                    "type": "select",
+                                    "format": "resource",
+                                    "title": "Выбор средства платежа resource",
+                                    "value": "card:104",
+                                    "readonly": false,
+                                    "referenceId": "resourceList",
+                                    "description": "описание текстового поля"
+                                },
+                                {
+                                    "id": "fieldSet:vat",
+                                    "type": "text",
+                                    "title": "Ввод ИНН",
+                                    "value": "",
+                                    "format": "vat",
+                                    "readonly": false,
+                                    "formatConfig": "organization",
+                                    "description": "описание текстового поля",
+                                    "validators": [
+                                        {
+                                            "type": "minLength",
+                                            "value": "10",
+                                            "message": "Введите номер ИНН"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "fieldSet:snils",
+                                    "type": "text",
+                                    "title": "Ввод СНИЛС",
+                                    "value": "",
+                                    "format": "snils",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "validators": [
+                                        {
+                                            "type": "minLength",
+                                            "value": "10",
+                                            "message": "Введите номер СНИЛС"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "fieldSet:money",
+                                    "type": "text",
+                                    "title": "Ввод суммы",
+                                    "value": "",
+                                    "format": "money",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "formatConfig": "RUB", 
+                                    "validators": [
+                                        {
+                                            "type": "required",
+                                            "value": "",
+                                            "message": "Поле обязательно для заполнения"
+                                        },
+                                        {
+                                            "type": "minValue",
+                                            "value": "0.01",
+                                            "message": "Сумма перевода должна быть больше нуля"
+                                        },
+                                        {
+                                            "type": "maxValue",
+                                            "value": "50000",
+                                            "message": "Сумма перевода не может превышать 50 000 руб."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "fieldSet:card",
+                                    "type": "text",
+                                    "title": "Ввод Номер карты",
+                                    "value": "",
+                                    "format": "card",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "validators": [
+                                        {
+                                            "type": "required",
+                                            "value": "",
+                                            "message": "Поле обязательно для заполнения"
+                                        },
+                                        {
+                                            "type": "minValue",
+                                            "value": "0.01",
+                                            "message": "Сумма перевода должна быть больше нуля"
+                                        },
+                                        {
+                                            "type": "maxValue",
+                                            "value": "50000",
+                                            "message": "Сумма перевода не может превышать 50 000 руб."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "fieldSet:protected",
+                                    "type": "text",
+                                    "title": "Ввод защищенных данных",
+                                    "value": "",
+                                    "format": "protected",
+                                    "readonly": false,
+                                    "description": "описание текстового поля"                                  
+                                },
+                                {
+                                    "id": "fieldSet:Phone",
+                                    "type": "text",
+                                    "title": "Ввод номера телефона",
+                                    "value": "",
+                                    "format": "phone",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "style": "Phone",                                    
+                                    "formatConfig": "+7([000]) [00] [00] [00]"
+                                },
+                                {
+                                    "id": "fieldSet:resource",
+                                    "type": "select",
+                                    "format": "resource",
+                                    "referenceId": "phoneList",
+                                    "title": "Ввод номера телефона",
+                                    "value": "По умолчаню",
+                                    "format": "phone",
+                                    "readonly": false,
+                                    "description": "описание текстового поля",
+                                    "style": "Phone",                                    
+                                    "formatConfig": "+7([000]) [00] [00] [00]"
+                                }
+                            ]
+                        }
+                    ],
+                    "footer": [
+                        {
+                            "type": "CoreButtons",
+                            "events": [
+                                {
+                                    "uri": "nav:next",
+                                    "title": "Продолжить",
+                                    "description": "Переход на следующий экран"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "references": {
+                "resourceList": {
+                    "properties": {},
+                    "items": [
+                        {
+                            "value": "card:104",
+                            "title": "Зарплатная карта",
+                            "properties": {
+                                "title": "Зарплатная",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "Visa",
+                                "name": "Visa Classic",
+                                "maskedNumber": "** 0000",
+                                "currency": "RUB",
+                                "balance": "22846"
+                            }
+                        },
+                        {
+                            "value": "card:101",
+                            "title": "Зарплатная карта",
+                            "properties": {
+                                "title": "Зарплатная",
+                                "type": "card",
+                                "isCredit": false,
+                                "paymentSystem": "MasterCard",
+                                "name": "MasterCard Mass",
+                                "maskedNumber": "** 0001",
+                                "currency": "RUB",
+                                "balance": "15000.10"
+                            }
+                        }
+                    ]
+                },
+                "phoneList": {
+                    "properties": {},
+                    "items": [
+                        {
+                            "title": "+7 905 776-69-33",
+                            "value": "+79057766933"
+                        },
+                        {
+                            "title": "+7 915 748 54 73",
+                            "value": "+79157485473"
+                        },
+                        {
+                        "title": "+7 915 885 56 49",
+                        "value": "+79158855649"
+                        }
+                    ]
+                }
+
+            }
+        }
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

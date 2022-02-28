@@ -1,0 +1,64 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+   "success": true,
+   "body": {
+       "result": "SUCCESS",
+       "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+       "flow": "DemoCoreMoney",
+       "state": "state0",
+       "output": {
+           "screens": [{
+               "title": "CoreFieldSet: decimal",
+               "header": [{
+                   "type": "CoreNavBar",
+                   "title": "CoreFieldSet: decimal",
+                   "events": [{
+                       "cmd": "EXIT"
+                   }]
+               }],
+               "widgets": [
+                  {
+                     "type":"CoreFieldSet",
+                     "title":"Текстовые поля",
+                     "readonly":false,
+                     "fields":[
+                        {
+                           "id":"fieldSet:decimal",
+                           "value":"0",
+                           "type":"text",
+                           "format":"decimal",
+                           "title":"ЧИСЛО С РАЗДЕЛИТЕЛЕМ",
+                           "value":" 0999,23",
+                           "readonly":false,
+                           "formatConfig":"2",
+                           "description":"описание текстового поля",
+                           "validators":[
+                              {
+                                 "type":"required",
+                                 "value":"",
+                                 "message":"Поле обязательно"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+           }]
+       }
+   }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

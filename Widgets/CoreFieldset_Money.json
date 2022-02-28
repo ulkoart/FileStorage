@@ -1,0 +1,77 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "flow": "pensionTransfer",
+        "state": "userInfo",
+        "pid": "pid",
+        "output": {
+            "screens": [{
+                "header": [{
+                    "type": "CoreNavBar",
+                    "title": "coreFieldSet: money",
+                    "description": "coreFieldSet: money",
+                    "properties": {
+                        "icon": "cancel"
+                    },
+                    "events": [{
+                        "cmd": "EXIT"
+                    }]
+                }],
+                "widgets": [
+                    {
+                        "type":"CoreFieldSet",
+                        "description":"",
+                        "fields":[
+                           {
+                              "id":"fieldSet:money",
+                              "type":"text",
+                              "title":"Ввод суммы",
+                              "value":"",
+                              "format":"money",
+                              "readonly":false,
+                              "description":"описание текстового поля",
+                              "formatConfig":"RUB",
+                              "validators":[
+                                 {
+                                    "type":"required",
+                                    "value":"",
+                                    "message":"Поле обязательно для заполнения"
+                                 },
+                                 {
+                                    "type":"minValue",
+                                    "value":"0.01",
+                                    "message":"Сумма перевода должна быть больше нуля"
+                                 },
+                                 {
+                                    "type":"maxValue",
+                                    "value":"50000",
+                                    "message":"Сумма перевода не может превышать 50 000 руб."
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                ],
+                "footer": [
+                ]
+            }]
+        }
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

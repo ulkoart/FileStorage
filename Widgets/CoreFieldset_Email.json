@@ -1,0 +1,59 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "flow": "pensionTransfer",
+        "state": "userInfo",
+        "pid": "pid",
+        "output": {
+            "screens": [{
+                "header": [{
+                    "type": "CoreNavBar",
+                    "title": "coreFieldSet: email",
+                    "description": "coreFieldSet: email",
+                    "properties": {
+                        "icon": "cancel"
+                    },
+                    "events": [{
+                        "cmd": "EXIT"
+                    }]
+                }],
+                "widgets": [
+                    {
+                        "type":"CoreFieldSet",
+                        "description":"",
+                        "fields":[
+                           {
+                              "id":"fieldSet:email",
+                              "type":"text",
+                              "format":"email",
+                              "title":"Выбор электронной почты",
+                              "readonly":false,
+                              "description":"описание текстового поля",
+                              "style":"email"
+                           }
+                        ]
+                     }
+                ],
+                "footer": [
+                ]
+            }]
+        }
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

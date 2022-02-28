@@ -1,0 +1,67 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "flow": "pensionTransfer",
+        "state": "userInfo",
+        "pid": "pid",
+        "output": {
+            "screens": [{
+                "header": [{
+                    "type": "CoreNavBar",
+                    "title": "coreFieldSet: inn",
+                    "description": "coreFieldSet: inn",
+                    "properties": {
+                        "icon": "cancel"
+                    },
+                    "events": [{
+                        "cmd": "EXIT"
+                    }]
+                }],
+                "widgets": [
+                    {
+                        "type":"CoreFieldSet",
+                        "description":"",
+                        "fields":[
+                           {
+                              "id":"fieldSet:vat",
+                              "type":"text",
+                              "title":"Ввод ИНН",
+                              "value":"",
+                              "format":"vat",
+                              "readonly":false,
+                              "formatConfig":"organization",
+                              "description":"описание текстового поля",
+                              "validators":[
+                                 {
+                                    "type":"minLength",
+                                    "value":"10",
+                                    "message":"Введите номер ИНН"
+                                 }
+                              ]
+                           }
+                        ]
+                    }
+                ],
+                "footer": [
+                ]
+            }]
+        }
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

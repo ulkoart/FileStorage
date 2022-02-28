@@ -1,0 +1,66 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "flow": "pensionTransfer",
+        "state": "userInfo",
+        "pid": "pid",
+        "output": {
+            "screens": [{
+                "header": [{
+                    "type": "CoreNavBar",
+                    "title": "coreFieldSet: snils",
+                    "description": "coreFieldSet: snils",
+                    "properties": {
+                        "icon": "cancel"
+                    },
+                    "events": [{
+                        "cmd": "EXIT"
+                    }]
+                }],
+                "widgets": [
+                    {
+                        "type":"CoreFieldSet",
+                        "description":"",
+                        "fields":[
+                           {
+                              "id":"fieldSet:snils",
+                              "type":"text",
+                              "title":"Ввод СНИЛС",
+                              "value":"",
+                              "format":"snils",
+                              "readonly":false,
+                              "description":"описание текстового поля",
+                              "validators":[
+                                 {
+                                    "type":"minLength",
+                                    "value":"10",
+                                    "message":"Введите номер СНИЛС"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                ],
+                "footer": [
+                ]
+            }]
+        }
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}
