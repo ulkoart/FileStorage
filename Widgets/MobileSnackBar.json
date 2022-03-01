@@ -1,0 +1,674 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "pid": "30ddc525-213e-11e9-afbe-f5668049fae0",
+        "flow": "QuickPayments",
+        "state": "state0",
+        "output": {
+            "screens": [
+                {
+                    "type": "DSNScreen",
+                    "properties": {},
+                    "title": "Не используется на МП",
+                    "header": [
+                        {
+                            "type": "CoreNavBar",
+                            "title": "Получатель",
+                            "description": "",
+                            "events": [
+                                {
+                                    "cmd": "EXIT",
+                                    "name": "goAway",
+                                    "type": "exit"
+                                }
+                            ]
+                        }
+                    ],
+                    "widgets": [
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f098",
+                                    "type": "text",
+                                    "format": "phone",
+                                    "title": "Номер телефона получателя",
+                                    "value": "",
+                                    "readonly": false,
+                                    "validators": [
+                                        {
+                                            "type": "required",
+                                            "message": "Нужно ввести телефон"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f098",
+                                    "type": "checkbox",
+                                    "format": "checkbox",
+                                    "title": "Показать CoreDialog",
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f099",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать AlertDialog",
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f100",
+                                    "type": "checkbox",
+                                    "format": "checkbox",
+                                    "title": "Показать SnackBar",
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f101",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать SnackBar",
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+
+
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "Варианты mobileSnackBar:", 
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f200",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать SnackBar",
+                                    "description": "Тип снекбара textButton с текстом и кнопкой справа",
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+            
+            {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f221",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать SnackBar",
+                                    "description": "Тип снекбара textLongButton с текстом и длинной кнопкой снизу",
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+            {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f231",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать SnackBar",
+                                    "description": "Тип снекбара textLongButton с текстом и длинной кнопкой снизу",
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },   
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "d204",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать SnackBar",
+                                    "description": "Тип снекбара iconTextImageButton с иконкой слева (ic_36_info), текстом и кнопкой-иконкой справа ic_24_cross",                                    
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "d205",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать SnackBar",
+                                    "description": "Тип снекбара iconTextImageButton с иконкой слева (ic_36_info), текстом и кнопкой-иконкой справа ic_24_cross_small",                                    
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f203",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать SnackBar",
+                                     "description": "Тип снекбара textImageButton с текстом и кнопкой-иконкой справа ic_24_cross",                                   
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f204",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать SnackBar",
+                                     "description": "Тип снекбара timerTextButton с таймером слева, текстом и кнопкой-иконкой справа",                                                                       
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f205",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать SnackBar",
+                                     "description": "Тип снекбара с undefined (style='') ",                                                                       
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreFieldSet",
+                            "properties": {},
+                            "fields": [
+                                {
+                                    "id": "f206",
+                                    "type": "checkbox",
+                                    "format": "switch",
+                                    "title": "Показать SnackBar",
+                                     "description": "Тип снекбара с undefined (отсутствует style) ",                                                                       
+                                    "value": "false",
+                                    "readonly": false
+                                }
+                            ]
+                        },                                       
+                        {
+                            "type": "CoreDialog",
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f098",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "properties": {
+                                "card": "accept",
+                                "leave": "additionalButton"
+                            },
+                            "events": [
+                                {
+                                    "name": "next",
+                                    "title": "ПОПОЛНИТЬ КОНВЕРТ"
+                                },
+                                {
+                                    "name": "leave",
+                                    "cmd": "EXIT",
+                                    "title": "ПЕРЕЙТИ НА ГЛАВНЫЙ ЭКРАН"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "id:CoreDialog",
+                                    "type": "text",
+                                    "title": "Ура, ваш конверт готов!",
+                                    "description": "Пора положить в него\nденьги до лучших времён",
+                                    "style": "success_false"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreDialog",
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f099",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "properties": {
+                                "card": "accept",
+                                "leave": "additionalButton"
+                            },
+                            "events": [
+                                {
+                                    "name": "next",
+                                    "title": "ПОПОЛНИТЬ КОНВЕРТ"
+                                },
+                                {
+                                    "name": "leave",
+                                    "cmd": "EXIT",
+                                    "title": "ПЕРЕЙТИ НА ГЛАВНЫЙ ЭКРАН"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "id:CoreDialogAlert",
+                                    "type": "text",
+                                    "title": "Ура, ваш конверт готов!",
+                                    "description": "Пора положить в него\nденьги до лучших времён",
+                                    "style": "success_false"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "properties": {
+                                "timerTime": 3,
+                                "buttonIcon": "",
+                                "buttonText": "buttonText",
+                                "icon": ""
+                            },
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f100",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:2",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Value Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": "",
+                                    "style": "textButton"
+                                }
+                            ],
+                         "events": [
+                            {
+                                "name":"button",
+                                "cmd": "EXIT",
+                                "title": "Выйти",
+                                "uri": "app:mainScreen"
+                            }
+                        ]
+                        },
+                        {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "properties": {
+                                "timerTime": 3,
+                                "buttonIcon": "",
+                                "buttonText": "buttonText",
+                                "icon": ""
+                            },
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f101",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:1",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": "",
+                                    "style": "textButton"
+                                }
+                            ],
+                         "events": [
+                            {
+                                "name":"button",
+                                "cmd": "EXIT",
+                                "uri": "app:mainScreen",
+                                "title": "Выйти"
+                            }
+                        ]
+                        },
+                        {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "properties": {
+                                "buttonText": "buttonText"
+                                },
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f200",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:1",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": "",
+                                    "style": "textButton"
+                                }
+                            ],
+                         "events": [
+                            {
+                                "name":"button",
+                                "cmd": "EXIT",
+                                "uri": "app:mainScreen",
+                                "title": "Выйти"
+                            }
+                        ]
+                        },
+                        {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "properties": {
+                                "buttonText": "ОТМЕНИТЬ ДЕЙСТВИЕ"
+                            },
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f221",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:1",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": "",
+                                    "style": "textLongButton"
+                                }
+                            ],
+                         "events": [
+                            {
+                                "name":"button",
+                                "cmd": "EXIT",
+                                "uri": "app:mainScreen",
+                                "title": "Выйти"
+                            }
+                        ]
+                        },
+                        {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "properties": {
+                                "buttonText": "Увы! Вас закомитили пока вы отсутствовали"
+                            },
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f231",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:1",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": "",
+                                    "style": "textLongButton"
+                                }
+                            ],
+                         "events": [
+                            {
+                                "name":"button",
+                                "cmd": "EXIT",
+                                "uri": "app:mainScreen",
+                                "title": "Выйти"
+                            }
+                        ]
+                        },                        
+                        {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "properties": {
+                                "buttonIcon": "ic_24_cross",
+                                "icon": "ic_36_info"
+                            },
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "d204",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:1",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": "",
+                                    "style": "iconTextImageButton"
+                                }
+                            ],
+                         "events": [
+                            {
+                                "name":"button",
+                                "cmd": "EXIT",
+                                "uri": "app:mainScreen",
+                                "title": "Выйти"
+                            }
+                        ]
+                        },        
+                        {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "properties": {
+                                "buttonIcon": "ic_24_cross_small",
+                                "icon": "ic_36_info"
+                            },
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "d205",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:1",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": "",
+                                    "style": "iconTextImageButton"
+                                }
+                            ],
+                         "events": [
+                            {
+                                "name":"button",
+                                "cmd": "EXIT",
+                                "uri": "app:mainScreen",
+                                "title": "Выйти"
+                            }
+                        ]
+                        },
+                        {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "properties": {
+                                "buttonIcon": "ic_24_cross"
+                                },
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f203",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:1",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": "",
+                                    "style": "textImageButton"
+                                }
+                            ],
+                         "events": [
+                            {
+                                "name":"button",
+                                "cmd": "EXIT",
+                                "uri": "app:mainScreen",
+                                "title": "Выйти"
+                            }
+                        ]
+                        },
+                        {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "properties": {
+                                "timerTime": 9,
+                                "buttonText": "buttonText"
+                            },
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f204",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:1",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": "",
+                                    "style": "timerTextButton"
+                                }
+                            ],
+                         "events": [
+                            {
+                                "name":"button",
+                                "cmd": "EXIT",
+                                "uri": "app:mainScreen",
+                                "title": "Выйти"
+                            }
+                        ]
+                        },
+            {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f205",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:1",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": "",
+                                    "style": ""
+                                }
+                            ]
+                        },
+                        {
+                            "type": "MobileSnackBar",
+                            "title": "",
+                            "strategies": [
+                                {
+                                    "fieldLookupId": "f206",
+                                    "type": "mobilesnackbartests"
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "default:1",
+                                    "type": "text",
+                                    "format": "text",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                                    "title": ""
+                                    }
+                            ]
+                        }                        
+                    ],
+                    "footer": [
+                        {
+                            "type": "CoreButtons",
+                            
+                            "events": [
+                                {
+                                    "cmd": "EVENT",
+                                    "name": "next",
+                                    "type": "next",
+                                    "title": "Продолжить",
+                                    "description": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "history": []
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

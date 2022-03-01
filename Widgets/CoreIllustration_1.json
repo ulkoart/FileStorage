@@ -1,0 +1,70 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+    "flow": "WidgetSandbox",
+    "state": "state0",
+    "output": {
+      "screens": [
+        {
+          "title": "Виджеты",
+          "header": [
+            {
+              "type": "CoreNavBar",
+              "title": "Виджеты",
+              "events": [
+                {
+                  "cmd": "EXIT",
+                  "uri": "Диплинк на предыдущий экран",
+                  "title": "На предыдущий экран",
+                  "description": "Переход на предыдущий экран"
+                }
+              ]
+            }
+          ],
+          "widgets": [
+            {
+              "type": "CoreIllustration",
+              "fields": [
+                {
+                  "id": "id:CoreIllustration",
+                  "type": "text",
+                  "style": "ill_256_bird_spasibo",
+                  "title": "CoreIllustration",
+                  "description": "Виджет с иллюстрацией из ДизайнСистемы"
+                }
+              ],
+              "events": [
+                {
+                  "name": "coreIllustrationNoIcon",
+                  "cmd": "EVENT",
+                  "title": "Кнопка"
+                }
+              ]
+            }
+          ],
+          "footer": [
+          ]
+        }
+      ]
+    }
+  }
+}
+
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

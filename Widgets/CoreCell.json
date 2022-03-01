@@ -1,0 +1,252 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+        "flow": "DSNWidgetSandbox",
+        "state": "widgets",
+        "output": {
+            "screens": [
+                {
+                    "title": "CoreCell",
+                    "type": "DSNScreen",
+                    "header": [
+                        {
+                            "type": "CoreNavBar",
+                            "title": "CoreCell",
+                            "events": [
+                                {
+                                    "cmd": "EXIT",
+                                    "title": "На предыдущий экран",
+                                    "description": "Переход на предыдущий экран"
+                                }
+                            ]
+                        }
+                    ],
+                    "widgets": [
+                        {
+                           "type":"CoreCell",
+                           "readonly":false,
+                           "properties":{
+                              "icon":"document",
+                              "style":"default",
+                              "disclosure":false,
+                              "divider":"none"
+                           },
+                           "fields":[
+                              {
+                                 "title":"STYLE DEFAULT",
+                                 "id":"statusInfo:3",
+                                 "readonly":false,
+                                 "value": "value_1",
+                                 "type":"text",
+                                 "masked":false,
+                                 "description":"description description"
+                              }
+                           ]
+                        },
+                        {
+                           "type":"CoreCell",
+                           "readonly":false,
+                           "properties":{
+                              "icon":"branch",
+                              "style":"brandtitle",
+                              "disclosure":false,
+                              "divider":"none"
+                           },
+                           "fields":[
+                              {
+                                 "title":"STYLE brandtitle",
+                                 "id":"statusInfo:4",
+                                 "readonly":false,
+                                 "value": "value_1",
+                                 "type":"text",
+                                 "masked":false,
+                                 "description":"description description"
+                              }
+                           ]
+                        },
+                        {
+                           "type":"CoreCell",
+                           "readonly":false,
+                           "properties":{
+                              "icon":"branch",
+                              "style":"warningtitle",
+                              "disclosure":false,
+                              "divider":"none"
+                           },
+                           "fields":[
+                              {
+                                 "title":"STYLE warningtitle",
+                                 "id":"statusInfo:4",
+                                 "value": "value_1",
+                                 "readonly":false,
+                                 "type":"text",
+                                 "masked":false,
+                                 "description":"description description"
+                              }
+                           ]
+                        },
+                        {
+                           "type":"CoreCell",
+                           "readonly":false,
+                           "properties":{
+                              "icon":"branch",
+                              "style":"warningbody",
+                              "disclosure":false,
+                              "divider":"none"
+                           },
+                           "fields":[
+                              {
+                                 "title":"STYLE warningbody",
+                                 "id":"statusInfo:4",
+                                 "readonly":false,
+                                 "value": "value_1",
+                                 "type":"text",
+                                 "masked":false,
+                                 "description":"description description"
+                              }
+                           ]
+                        },
+                        {
+                           "type":"CoreCell",
+                           "readonly":false,
+                           "properties":{
+                              "icon":"branch",
+                              "style":"warningsubtitle",
+                              "disclosure":false,
+                              "divider":"none"
+                           },
+                           "fields":[
+                              {
+                                 "title":"STYLE warningsubtitle",
+                                 "id":"statusInfo:4",
+                                 "readonly":false,
+                                 "value": "value_1",
+                                 "type":"text",
+                                 "masked":false,
+                                 "description":"description description"
+                              }
+                           ]
+                        },
+                        {
+                           "type":"CoreCell",
+                           "readonly":false,
+                           "properties":{
+                              "icon":"branch",
+                              "style":"graycontent",
+                              "disclosure":false,
+                              "divider":"none"
+                           },
+                           "fields":[
+                              {
+                                 "title":"STYLE graycontent",
+                                 "id":"statusInfo:4",
+                                 "readonly":false,
+                                 "value": "value_1",
+                                 "type":"text",
+                                 "masked":false,
+                                 "description":"description description"
+                              }
+                           ]
+                        },
+                        {
+                           "type":"CoreCell",
+                           "properties":{
+                              "style":"designSystemStyle",
+                              "icon":"card",
+                              "caption":"Подробнее",
+                              "divider":"long",
+                              "disclosure":true,
+                              "disclosureText":"Текст у шеврона"
+                           },
+                           "fields":[
+                              {
+                                 "id":"CoreCell:1",
+                                 "type":"text",
+                                 "title":"До 5 премиальных карт",
+                                 "description":"Для всего остального есть мастеркард"
+                              }
+                           ],
+                           "events":[
+                              {
+                                 "cmd":"EVENT",
+                                 "name":"edit"
+                              }
+                           ]
+                        },
+                        {
+                           "type":"CoreCell",
+                           "properties":{
+                              "style":"designSystemStyle",
+                              "icon":"card",
+                              "caption":"Подробнее",
+                              "divider":"bold",
+                              "disclosure":true,
+                              "disclosureText":"Текст у шеврона"
+                           },
+                           "fields":[
+                              {
+                                 "id":"CoreCell:1",
+                                 "type":"text",
+                                 "title":"До 5 премиальных карт",
+                                 "description":"Для всего остального есть мастеркард"
+                              }
+                           ],
+                           "events":[
+                              {
+                                 "cmd":"EVENT",
+                                 "name":"edit"
+                              }
+                           ]
+                        },
+                        {
+                           "type":"CoreCell",
+                           "properties":{
+                              "style":"designSystemStyle",
+                              "icon":"card",
+                              "caption":"Подробнее",
+                              "divider":"long",
+                              "disclosure":true,
+                              "disclosureText":"Текст у шеврона"
+                           },
+                           "fields":[
+                              {
+                                 "id":"CoreCell:1",
+                                 "type":"text",
+                                 "title":"До 5 премиальных карт",
+                                 "description":"Для всего остального есть мастеркард"
+                              }
+                           ],
+                           "events":[
+                              {
+                                 "cmd":"EVENT",
+                                 "name":"edit"
+                              }
+                           ]
+                        }
+                    ],
+                    "footer": [
+                                                                                  
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

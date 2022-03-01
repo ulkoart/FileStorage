@@ -1,0 +1,108 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "40fb88f5-7e15-11e9-bde0-2f990274dd54",
+    "flow": "Payments",
+    "state": "state2",
+    "output": {
+      "screens": [
+        {
+          "type": "DSNScreen",
+          "title": "Подтверждение перевода",
+          "header": [
+            {
+              "type": "CoreNavBar",
+              "title": "Примеры CoreDialog",
+              "events": [
+                {
+                  "name": "next",
+                  "type": "next",
+                  "title": "Продолжить",
+                  "cmd": "exit"
+                }
+              ]
+            }
+          ],
+          "widgets": [
+            {
+              "type": "CoreFieldSet",
+              "description": "",
+              "fields": [
+                {
+                  "id": "fieldSet:surname",
+                  "type": "text",
+                  "style": "hiddenIcon",
+                  "readonly": true,
+                  "format": "string",
+                  "title": "Движок",
+                  "value": "workflow 2.0 richAlert"
+                }
+              ]
+            },
+            {
+              "type": "CoreDialog",
+              "properties": {
+                "next": "accept",
+                "cancel": "negative"
+              },
+              "events": [
+                {
+                  "name": "next",
+                  "uri": "nav:cancel",
+                  "title": "Найти офис на карте",
+                  "description": ""
+                },
+                {
+                  "name": "cancel",
+                  "uri": "nav:cancel",
+                  "title": "Отмена",
+                  "description": ""
+                }
+              ],
+              "fields": [
+                {
+                  "id": "id:CoreDialog",
+                  "type": "text",
+                  "style": "ill_256_bank_attention",
+                  "title": "Обратитесь в офис банка с паспортом",
+                  "description": "К сожалению, вы не можете провести эту операцию в Сбербанк Онлайн"
+                }
+              ]
+            }
+          ],
+          "footer": [{
+                    "type": "CoreButtons",
+                    "events": [{
+                        "name": "Main",
+                        "title": "Вернуться на главный",
+                        "uri": "app:mainScreen"
+                    }]
+                }]
+        }
+      ]
+    }
+  },
+  "messages": [
+    {
+      "type": "dialog",
+      "code": "id:CoreDialog",
+      "title":""
+    }
+  ]
+}
+              }
+            
+          }
+        
+      
+    
+  ]
+}

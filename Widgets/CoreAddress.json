@@ -1,0 +1,85 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+                 
+            "success": true,
+            "body": {
+                "result": "SUCCESS",
+                "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+                "flow": "DSNWidgetSandbox",
+                "state": "widgets",
+                "output": {
+                    "screens": [
+                        {
+                            "title": "Экран дизайн-системы",
+                            "type": "DSNScreen",
+                            "header": [
+                                {
+                                    "type": "CoreNavBar",
+                                    "title": "Экран дизайн-системы",
+                                    "events": [
+                                        {
+                                            "cmd": "EXIT",
+                                            "title": "На предыдущий экран",
+                                            "description": "Переход на предыдущий экран"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "widgets": [
+
+                                {
+                                "type": "CoreAddress",
+                                "description": "",
+                                "readonly": false,
+                                "properties": {
+                                    "debounce": 1000,
+                                    "suggestionAmount": 10,
+                                    "address": "coreFIAS:addressId",
+                                    "flat": "coreFIAS:flat"
+                                },
+                                "fields": [
+                                    {
+                                        "id": "coreFIAS:addressId",
+                                        "type": "text",
+                                        "title": "Заполните адрес",
+                                        "description": "Адрес",
+                                        "value": "",
+                                        "style": "noIcon",
+                                        "validators": [
+                                            {
+                                                "type": "required",
+                                                "value": "true",
+                                                "message": "Введите адрес"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "coreFIAS:flat",
+                                        "type": "text",
+                                        "value": "",
+                                        "style": "noIcon"
+                                    }
+                                ]
+                            }
+                        ]
+
+                    }
+                ]
+                    
+                }
+            }
+        }
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

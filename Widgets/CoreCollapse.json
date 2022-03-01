@@ -1,0 +1,83 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "pid": "pid_uuid_here",
+        "flow": "ExampleFlowScreen",
+        "state": "state0",
+        "output": {
+            "screens": [{
+                "title": "Кредитная история",
+                "type": "DSNScreen",
+                "header": [{
+                    "type": "CoreNavBar",
+                    "title": "CoreCollapse",
+                    "events": [{
+                        "cmd": "EXIT"
+                    }]
+                }],
+                "widgets": [{
+                        "type": "CoreCollapse",
+                        "fields": [{
+                            "id": "consent:id:4",
+                            "type": "checkbox",
+                            "title": "Вот тут coreCollapse",
+                            "value": "false",
+                            "style": "info"
+                        }]
+                    },
+                    {
+                        "type": "CoreFormattedText",
+                        "visible": {
+                            "id": "consent:id:4",
+                            "regexp": "true"
+                        },
+                        "fields": [{
+                            "id": "statusInfo:1",
+                            "type": "text",
+                            "readonly": true,
+                            "value": "####А вот тут вложенный виджет coreFormattedText",
+                            "masked": false
+                        }]
+                    },
+                    {
+                        "type": "CoreCell",
+                        "properties": {
+                            "style": "designSystemStyle",
+                            "icon": "document",
+                            "divider": "none",
+                            "disclosure": "false"
+                        },
+                        "visible": {
+                            "id": "consent:id:4",
+                            "regexp": "true"
+                        },
+                        "fields": [{
+                            "id": "consent:id:6",
+                            "type": "text",
+                            "title": "А вот тут вложенный coreCell",
+                            "description": "Отчёт можно скачать на телефон, в формате PDF"
+                        }]
+                    }
+                ],
+                "footer": []
+            }]
+        }
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

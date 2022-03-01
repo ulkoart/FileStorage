@@ -1,0 +1,148 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "pid": "30ddc525-213e-11e9-afbe-f5668049fae0",
+        "flow": "QuickPayments",
+        "state": "state2",
+        "output": {
+            "screens": [
+                {
+                    "properties": {},
+                    "title": "Не используется на МП",
+                    "header": [
+                        {
+                            "type": "CoreNavBar",
+                            "title": "Подтверждение",
+                            "description": "",
+                            "events": [
+                                {
+                                    "cmd": "ROLLBACK",
+                                    "name": "goBack",
+                                    "type": "back"
+                                }
+                            ]
+                        }
+                    ],
+                    "widgets": [
+                        {
+                            "type": "CoreFieldSet",
+                            "title": "",
+                            "fields": [
+                                {
+                                    "id": "fio",
+                                    "type": "text",
+                                    "style": "user",
+                                    "format": "markdown",
+                                    "value": "^[Текст красный.](color:critical) -> ^[Текст зеленый.](color:brand)",
+                                    "readonly": true,
+                                    "title": "ФИО получателя",
+                                    "validators": []
+                                },
+                                {
+                                    "id": "fio",
+                                    "type": "text",
+                                    "style": "user",
+                                    "format": "markdown",
+                                    "value": "^[Текст белый.](color:primary) -> ^[Текст серый.](color:secondary)",
+                                    "readonly": true,
+                                    "title": "ФИО получателя",
+                                    "validators": []
+                                },
+                                {
+                                    "id": "fio",
+                                    "type": "text",
+                                    "style": "user",
+                                    "format": "markdown",
+                                    "value": "^[Белый с прозрачностью.](color:tertiary) -> ^[В цвет темы (белый/черный).](color:inverse)",
+                                    "readonly": true,
+                                    "title": "ФИО получателя",
+                                    "validators": []
+                                },
+                                {
+                                    "id": "fio",
+                                    "type": "text",
+                                    "style": "user",
+                                    "format": "markdown",
+                                    "value": "^[Текст серый.](color:info) -> ^[Текст красный.](color:error)",
+                                    "readonly": true,
+                                    "title": "ФИО получателя",
+                                    "validators": []
+                                },
+                                {
+                                    "id": "fio",
+                                    "type": "text",
+                                    "style": "user",
+                                    "format": "markdown",
+                                    "value": "^[Текст оранжевый.](color:warning) -> ~~Текст зачеркнутый.~~",
+                                    "readonly": true,
+                                    "title": "ФИО получателя",
+                                    "validators": []
+                                },
+                                {
+                                    "id": "fio",
+                                    "type": "text",
+                                    "style": "user",
+                                    "format": "markdown",
+                                    "value": "~~^[Текст зачеркнутый.](color:warning)~~",
+                                    "readonly": true,
+                                    "title": "ФИО получателя",
+                                    "validators": []
+                                }
+                            ]
+                        }
+                    ],
+                    "footer": [
+                        {
+                            "type": "CoreButtons",
+                            "events": [
+                                {
+                                    "cmd": "EVENT",
+                                    "name": "next",
+                                    "type": "next",
+                                    "title": "Перевести 12345,67 \u20BD",
+                                    "description": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "references": {
+                "accounts": {
+                    "properties": {},
+                    "items": [
+                        {
+                            "title": "Visa Classic 10 616,77 руб.",
+                            "value": "card:16c52d58166b9469814b06257507207c",
+                            "properties": {
+                                "maskedNumber": "•• 1234",
+                                "balance": "10616.77",
+                                "name": "Карточный счёт",
+                                "currency": "RUB",
+                                "type": "card"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "history": []
+    }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

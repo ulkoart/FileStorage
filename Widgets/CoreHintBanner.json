@@ -1,0 +1,1238 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+        "flow": "DSNWidgetSandbox",
+        "state": "widgets",
+        "output": {
+            "screens": [
+                {
+                    "title": "Виджеты",
+                    "type": "DSNScreen",
+                    "header": [
+                        {
+                            "type": "CoreNavBar",
+                            "title": "Виджеты",
+                            "events": [
+                                {
+                                    "cmd": "EXIT",
+                                    "title": "На предыдущий экран",
+                                    "description": "Переход на предыдущий экран"
+                                }
+                            ]
+                        }
+                    ],
+                    "widgets": [
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:1",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. СMD=UPDATE",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning. Event Name=close"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                },
+                                {
+                                    "name":"close",
+                                    "cmd": "Update",
+                                    "title": "скрыть подсказку",
+                                    "description": "скрыть подсказку"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:2",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. CMD=Exit",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning. Event Name=close"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                },
+                                {
+                                    "name":"close",
+                                    "cmd": "Exit",
+                                    "title": "скрыть подсказку",
+                                    "description": "скрыть подсказку"
+                                }
+                            ]
+                        },
+{
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible"                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:3",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. CMD=*Custom*",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning. Event Name=close"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+{
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:202",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                },
+                                {
+                                    "name":"close",
+                                    "cmd": "Update",
+                                    "title": "скрыть подсказку",
+                                    "description": "скрыть подсказку"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:212",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "",
+                                    "title": "Заголовок. Title text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:222",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style":"basic",
+                                "close":"hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:4",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "value": "",
+                                    "title": "Заголовок. Title text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:5",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "value": "",
+                                    "title": "Заголовок. Title text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:6",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "value": "Описание от 1 до 3 строк. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:7",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "value": "Описание от 1 до 3 строк. Value text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:8",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "title": "Заголовок. Title text. Style=basic",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:9",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "title": "Заголовок. Title text. Style=warning",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:10",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "title": "Заголовок. Title text. Style=basic",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:11",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "title": "Заголовок. Title text. Style=warning",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning"                                    
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:12",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "",
+                                    "title": "Заголовок. Title text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:13",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "",
+                                    "title": "Заголовок. Title text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:14",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:15",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:16",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=basic",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:17",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=warning",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:18",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=basic",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:19",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=warning",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning"                                    
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:20",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "",
+                                    "title": "Заголовок. Title text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:21",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "",
+                                    "title": "Заголовок. Title text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:22",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:23",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:24",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=basic",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:25",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=warning",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning. Event Name=close"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:26",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=basic",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:27",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=warning",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning"                                    
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:28",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "",
+                                    "title": "Заголовок. Title text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:29",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "",
+                                    "title": "Заголовок. Title text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:30",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:31",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:32",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=basic",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:33",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=warning",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:34",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=basic",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=basic"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible",
+                                "button": "visible"
+
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:35",
+                                    "type": "text",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Заголовок. Title text. Style=warning",
+                                    "value": "Описание от 1 до 3 строк. Значение. Value text. Style=warning"                                    
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:36",
+                                    "type": "text",
+                                    "value": "У вас имеются обязательные платежи",
+                                    "readonly": true,
+                                    "title": "Настройте порядок списания"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "basic",
+                                "close": "hidden",
+                                "button": "visible",
+                                "title": "title"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:37",
+                                    "type": "text",
+                                    "value": "У вас имеются обязательные платежи",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Настройте порядок списания"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },                        
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden",
+                                "button": "visible",
+                                "title": "title"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:38",
+                                    "type": "text",
+                                    "value": "У вас имеются обязательные платежи",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Настройте порядок списания"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "hidden",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:39",
+                                    "type": "text",
+                                    "value": "У вас имеются обязательные платежи",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Настройте порядок списания"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:40",
+                                    "type": "text",
+                                    "value": "У вас имеются обязательные платежи",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Настройте порядок списания"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "Выйти",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "CoreHintBanner",
+                            "properties": {
+                                "style": "warning",
+                                "close": "visible",
+                                "button": "visible"
+                            },
+                            "fields": [
+                                {
+                                    "id": "foo:id:41",
+                                    "type": "text",
+                                    "value": "У вас имеются обязательные платежи",
+                                    "readonly": true,
+                                    "style": "info",
+                                    "title": "Настройте порядок списания"
+                                }
+                            ],
+                            "events": [
+                                {
+                                    "name": "button",
+                                    "cmd": "EXIT",
+                                    "title": "",
+                                    "uri": "app:mainScreen"
+                                }
+                            ]
+                        }
+                    ],
+                    "footer": [
+                        {
+                            "type": "CoreButtons",
+                            "events": [
+                                {
+                                    "uri": "nav:next",
+                                    "title": "Продолжить",
+                                    "description": "Переход на следующий экран"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "references": {
+                "currencies": {
+                    "properties": {},
+                    "items": [
+                        {
+                            "title": "Российский рубль",
+                            "value": "RUB"
+                        },
+                        {
+                            "title": "Доллар США",
+                            "value": "USD"
+                        },
+                        {
+                            "title": "Казахстанский тенге",
+                            "value": "KZT"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
+              }
+            
+          }
+        
+      
+    
+  ]
+}

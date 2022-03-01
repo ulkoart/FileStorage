@@ -1,0 +1,161 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+    "flow": "Example",
+    "state": "paymentInfo",
+    "output": {
+      "screens": [
+        {
+          "title": "Пример",
+          "description": "Пример description",
+          "header": [
+            {
+              "type": "CoreNavBar",
+              "title": "Данные о взносе",
+              "events": [
+                {
+                  "cmd": "EXIT",
+                  "uri": "Диплинк на предыдущий экран",
+                  "title": "На предыдущий экран",
+                  "description": "Переход на предыдущий экран"
+                }
+              ]
+            }
+          ],
+          "widgets": [
+            {
+              "type": "CoreSuggest",
+              "strategies": [
+                {
+                  "fieldLookupId": "suggestText:1",
+                  "type": "baseSuggest"
+                }
+              ],
+              "fields": [
+                {
+                  "id": "suggestHolder:1",
+                  "type": "text",
+                  "format": "checkbox",
+                  "referenceId": "suggestRef"
+                }
+              ]
+            },
+            {
+              "type": "CoreFieldSet",
+              "title": "TitleOfWidget",
+              "description": "Description",
+              "fields": [
+                {
+                  "id": "suggestText:1",
+                  "type": "text",
+                  "style": "card",
+                  "title": "TitleOfField",
+                  "description": "Description",
+                  "readonly": false
+                }
+              ]
+            }
+          ],
+          "footer": [
+            {
+              "type": "CoreButtons",
+              "events": [
+                {
+                  "cmd": "EVENT",
+                  "title": "Продолжить",
+                  "description": "Переход на следующий экран"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "references": {
+        "suggestRef": {
+          "items": [
+            {
+              "value": "suggest:1",
+              "title": "FullSuggest:1",
+              "properties": {
+                "titleValueUI": "SSS 123 - titleValueUI",
+                "titleValueAcc": "SSS 123 - titleValueAcc",
+                "descriptionValueUI": "SSS 123 - descriptionValueUI",
+                "descriptionValueAcc": "SSS 123 - descriptionValueAcc",
+                "shortValueUI": "SSS 123 - shortValueUI",
+                "shortValueAcc": "SSS 123 - shortValueAcc",
+                "fullValueUI": "SSS 123 - fullValueUI",
+                "fullValueAcc": "SSS 123 - fullValueAcc",
+                "style": "card",
+                "deletable": true,
+                "selected": false
+              }
+            },
+            {
+              "value": "suggest:1",
+              "title": "ShortSuggest:2",
+              "properties": {
+                "shortValueUI": "123456parents",
+                "fullValueUI": "123456parents",
+                "descriptionValueUI": "descriptionValueUI",
+                "selected": false,
+                "style": "card"
+
+              }
+            },
+            {
+              "value": "suggest:1",
+              "title": "ShortSuggest:3",
+              "properties": {
+                "titleValueUI": "hortSuggest:3",
+                "shortValueUI": "123456paren",
+                "fullValueUI": "123456paren",
+                "descriptionValueUI": "descriptionValueUI",
+                "style": "card"
+              }
+            },
+            {
+              "value": "suggest:1",
+              "title": "ShortSuggest:4",
+              "properties": {
+                "titleValueUI": "hortSuggest:4",
+                "shortValueUI": "123456par",
+                "fullValueUI": "123456par",
+                "descriptionValueUI": "descriptionValueUI",
+                "style": "card"
+              }
+            },
+            {
+              "value": "г. Москва, ул. Центральный проезд Хорошевского Серебрянного Бора */*б под *, кв *",
+              "title": "ShortSuggest:4",
+              "properties": {
+                "titleValueUI": "hortSuggest:5",
+                "shortValueUI": "г. Москва, ул. Центральный проезд Хорошевского Серебрянного Бора */*б под *, кв *",
+                "fullValueUI": "г. Москва, ул. Центральный проезд Хорошевского Серебрянного Бора */*б под *, кв *",
+                "descriptionValueUI": "descriptionValueUI",
+                "style": "card"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}

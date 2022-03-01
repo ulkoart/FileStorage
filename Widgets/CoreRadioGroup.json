@@ -1,0 +1,248 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+         
+   "success":true,
+   "body":{
+      "result":"SUCCESS",
+      "pid":"2ba77a89-439b-11eb-a9f0-2ddd9cb31757",
+      "flow":"changeInterestPaymentSchemeMobile",
+      "state":"selectAccounts",
+      "output":{
+         "screens":[
+            {
+               "type":"DSNScreen",
+               "widgets":[
+                  {
+                     "type":"CoreRadioGroup",
+                     "strategies":[
+                        {
+                           "fieldLookupId":"delivery:type",
+                           "type":"divider",
+                           "properties":{
+                              "dividerType":"bold"
+                           }
+                        }
+                     ],
+                     "fields":[
+                        {
+                           "validators":[
+                              {
+                                 "type":"regexp",
+                                 "value":"^(?!^1$)",
+                                 "message":"На данный счёт уже начисляются проценты"
+                              }
+                           ],
+                           "id":"loan:terms",
+                           "type":"text",
+                           "value":"2",
+                           "referenceId":"loan:term:items"
+                        }
+                     ]
+                  },
+                  {
+                     "type":"CoreRadioGroup",
+                     "strategies":[
+                        {
+                           "fieldLookupId":"delivery:type",
+                           "type":"divider",
+                           "properties":{
+                              "dividerType":"bold"
+                           }
+                        }
+                     ],
+                     "fields":[
+                        {
+                           "id":"delivery:type",
+                           "type":"text",
+                           "value":"0",
+                           "referenceId":"delivery:type:items"
+                        }
+                     ]
+                  }
+               ],
+               "footer":[
+                  {
+                     "type":"CoreButtons",
+                     "visible":{
+                        "id":"loan:terms",
+                        "regexp":"2"
+                     },
+                     "events":[
+                        {
+                           "name":"next",
+                           "title":"РАДИОБАТТОН_2",
+                           "cmd":"EVENT"
+                        }
+                     ]
+                  },
+                  {
+                     "type":"CoreButtons",
+                     "visible":{
+                        "id":"loan:terms",
+                        "regexp":"1"
+                     },
+                     "events":[
+                        {
+                           "name":"next",
+                           "title":"РАДИОБАТТОН_1",
+                           "cmd":"EVENT"
+                        }
+                     ]
+                  }
+               ],
+               "properties":{
+                  "eventForAnalytic":"Step1",
+                  "paramsForAnalytic":[
+                     "typeProduct:deposit"
+                  ]
+               },
+               "header":[
+                  {
+                     "type":"CoreNavBar",
+                     "title":"Что делать с процентами",
+                     "events":[
+                        {
+                           "cmd":"EXIT",
+                           "name":"back"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "references":{
+            "loan:term:items":{
+               "items":[
+                  {
+                     "value":"1",
+                     "title":"Оставлять на вкладе",
+                     "properties":{
+                        "subtitle":"Текущее значение",
+                        "dividerType":"spacer8"
+                     }
+                  },
+                  {
+                     "value":"2",
+                     "title":"Переводить на карту или счёт",
+                     "properties":{
+                        "dividerType":"spacer8"
+                     }
+                  }
+               ]
+            },
+            "delivery:type:items":{
+               "items":[
+                  {
+                     "title":"no flags",
+                     "value":"0",
+                     "properties":{
+                        "subtitle":"подзаголовок dividerType=none",
+                        "icon":"ic_36_paw",
+                        "dividerType":"none"
+                     }
+                  },
+                  {
+                     "title":"readonly=false, disabled=false",
+                     "value":"1",
+                     "properties":{
+                        "readonly":false,
+                        "disabled":false,
+                        "subtitle":"подзаголовок dividerType=line",
+                        "icon":"ic_36_paw",
+                        "dividerType":"line"
+                     }
+                  },
+                  {
+                     "title":"readonly=true, disabled=false",
+                     "value":"2",
+                     "properties":{
+                        "readonly":true,
+                        "disabled":false,
+                        "subtitle":"подзаголовок dividerType=dotted",
+                        "icon":"ic_36_paw",
+                        "dividerType":"dotted"
+                     }
+                  },
+                  {
+                     "title":"readonly=false, disabled=true",
+                     "value":"3",
+                     "properties":{
+                        "readonly":false,
+                        "disabled":true,
+                        "subtitle":"подзаголовок dividerType=standartOffset",
+                        "icon":"ic_36_paw",
+                        "dividerType":"standartOffset"
+                     }
+                  },
+                  {
+                     "title":"readonly=true, disabled=true",
+                     "value":"4",
+                     "properties":{
+                        "readonly":true,
+                        "disabled":true,
+                        "subtitle":"подзаголовок dividerType=spacer8",
+                        "icon":"ic_36_paw",
+                        "dividerType":"spacer8"
+                     }
+                  },
+                  {
+                     "title":"readonly=true, disabled=true",
+                     "value":"5",
+                     "properties":{
+                         "disabled":true,
+                        "subtitle":"подзаголовок dividerType=smallOffset",
+                        "icon":"ic_36_paw",
+                        "dividerType":"smallOffset"
+                     }
+                  },
+                  {
+                     "title":"readonly=true, disabled=true",
+                     "value":"6",
+                     "properties":{
+                         "readonly":true,
+                         "subtitle":"подзаголовок dividerType=dotSmallOffset",
+                        "icon":"",
+                        "dividerType":"dotSmallOffset"
+                     }
+                  },
+                  {
+                     "title":"readonly=true, disabled=true",
+                     "value":"7",
+                     "properties":{
+                        "readonly":false,
+                        "disabled":false,
+                        "subtitle":"подзаголовок dividerType=segment",
+                        "icon":"",
+                        "dividerType":"segment"
+                     }
+                  }
+               ]
+            }
+         },
+         "history":[
+            {
+               "id":"2d0758c2-439b-11eb-a9f0-e1ef85596ff4",
+               "flow":"sbolDepositOpenFlowMobile",
+               "state":"selectAccounts",
+               "title":"Изменение способа зачисления процентов",
+               "status":"ACTIVE",
+               "flowId":1
+            }
+         ]
+      }
+   }
+}
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}
