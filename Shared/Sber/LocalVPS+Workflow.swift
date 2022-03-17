@@ -3,6 +3,7 @@
 //  AssistantSDK
 //
 //  Created by Julia Sharaeva on 06.07.2021.
+//  Modified by Alexey Malyshko on 16.03.2022 — Workflow widgets from CookBook SBOL added
 //  Copyright © 2021 Sberbank. All rights reserved.
 //
 
