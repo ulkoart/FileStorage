@@ -1,0 +1,66 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": 
+          {
+        "success": true,
+        "body": {
+            "result": "SUCCESS",
+            "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+            "flow": "DemoCoreMoney",
+            "state": "state0",
+            "output": {
+                "screens": [{
+                    "title": "CoreFieldSet: multiline",
+                   
+                    "widgets": [
+{
+              "type": "ConfirmationSummaryPdfDocuments",
+              "properties": {},
+              "title": "Ознакомление с документами",
+              "description": "Подтверждая, Вы соглашаетесь с документами",
+              "fields": [
+                {
+                  "id": "agreement",
+                  "value": "false",
+                  "type": "checkbox",
+                  "referenceId": "",
+                  "title": "Я соглашаюсь с условиями и подписываю документ по операции",
+                  "readonly": false,
+                  "validators": [
+                    {
+                      "type": "required",
+                      "value": "true",
+                      "message": "Пожалуйста, подтвердите условия по операции"
+                    }
+                  ]
+                },
+                {
+                  "id": "e456689db3d1474bb27c0575166e272e",
+                  "title": "Заявка на получение кредита",
+                  "type": "text",
+                  "value": "/confirmation/ib/v1/documents",
+                  "referenceId": "e456689db3d1474bb27c0575166e272e",
+                  "readonly": true,
+                  "validators": []
+                }
+              ]
+            }
+
+                    ]
+                }]
+            }
+        }
+     }
+
+              }
+            
+          }
+        
+      
+    
+  ]
+}
