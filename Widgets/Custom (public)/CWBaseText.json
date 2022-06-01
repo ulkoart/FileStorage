@@ -1,0 +1,93 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+         "card":{
+            "type":"workflow",
+            "payload":{
+               "success":true,
+               "body":{
+                  "result":"SUCCESS",
+                  "pid":"80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+                  "flow":"WalletEcomApp2App",
+                  "state":"paymentInfo",
+                  "output":{
+                     "screens":[
+                        {
+                           "widgets":[
+                              {
+                                 "type":"CWBaseText",
+                                 "title":"Текст для отображения виджета со стилем headline1",
+                                 "properties":{
+                                    "style":"headline1",
+                                    "alignment":"center",
+                                    "marginTop":8,
+                                    "marginBottom":8
+                                 }
+                              },
+                              {
+                                 "type":"CWBaseText",
+                                 "title":"Текст для отображения виджета со стилем body1",
+                                 "properties":{
+                                    "style":"body1",
+                                    "alignment":"left",
+                                    "marginTop":0,
+                                    "marginBottom":0
+                                 }
+                              },
+                              {
+                                 "type":"CWBaseText",
+                                 "title":"Текст для отображения виджета со стилем headline2",
+                                 "properties":{
+                                    "style":"headline2",
+                                    "alignment":"center",
+                                    "marginTop":8,
+                                    "marginBottom":8
+                                 }
+                              },
+                              {
+                                 "type":"CWBaseText",
+                                 "title":"Текст для отображения виджета со стилем caption_warning",
+                                 "properties":{
+                                    "style":"caption_warning",
+                                    "alignment":"right",
+                                    "marginTop":200,
+                                    "marginBottom":8
+                                 }
+                              },
+                              {
+                                 "type":"CWBaseText",
+                                 "title":"Ещё текст для отображения виджета со стилем headline2_secondary",
+                                 "properties":{
+                                    "style":"headline2_secondary",
+                                    "alignment":"right",
+                                    "marginTop":0,
+                                    "marginBottom":10
+                                 }
+                              }
+                           ],
+                           "footer":[
+                              {
+                                 "type":"CoreButtons",
+                                 "properties":{
+                                    "style":"accept"
+                                 },
+                                 "events":[
+                                    {
+                                       "cmd":"EXIT",
+                                       "name":"logout",
+                                       "title":"Выйти",
+                                       "description":"Выход из приложения"
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

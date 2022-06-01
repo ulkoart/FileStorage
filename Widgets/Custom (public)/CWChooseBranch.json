@@ -1,0 +1,51 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+         "card":{
+            "type":"workflow",
+            "payload":{
+               "success":true,
+               "body":{
+                  "result":"SUCCESS",
+                  "pid":"80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+                  "flow":"DemoCoreMoney",
+                  "state":"state0",
+                  "output":{
+                     "screens":[
+                        {
+                           "widgets":[
+                              {
+                                 "type":"CWChooseBranch",
+                                 "visible":{
+                                    "id":"delivery:type:radio:group",
+                                    "regexp":"branch"
+                                 },
+                                 "properties":{
+                                    "hasDivider":true,
+                                    "hint":"На карте показаны офисы, в которых можно получить дебетовую карту",
+                                    "servicePath":"/branch-delivery-services/v1/branch/search?uuid=14c84829212b4d9583d9fa43e57257f2&operation=physicalCardOrder&products=CARD&ids=649231",
+                                    "branchId":"3890380880",
+                                    "latitude":55.87643543,
+                                    "longitude":37.52435586,
+                                    "subjectName":"Москва"
+                                 },
+                                 "fields":[
+                                    {
+                                       "id":"delivery:office:id",
+                                       "type":"text",
+                                       "title":"Офис, где получу карту",
+                                       "value":"шоссе Коровинское, 21"
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

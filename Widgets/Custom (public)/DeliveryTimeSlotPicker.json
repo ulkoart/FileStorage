@@ -1,0 +1,66 @@
+{
+    "type":"sdk_answer",
+    "items":[{
+        "card":{
+            "type":"workflow",
+            "payload":{
+                "success":true,
+                "body":{
+                    "result":"SUCCESS",
+                    "pid":"80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+                    "flow":"WalletEcomApp2App",
+                    "state":"paymentInfo",
+                    "output":{
+                        "screens":[{
+                            "widgets":[{
+                                "type":"DeliveryTimeSlotPicker",
+                                "title":"Выбранный день:",
+                                "properties":{
+                                    "noSlotMessage":"Нет свободного времени",
+                                    "earlyDateMessage":"Карта еще не выпущена"
+                                },
+                                "fields":[{
+                                    "id":"selected:slot:id",
+                                    "type":"select",
+                                    "referenceId":"timeSlots",
+                                    "value":"slot:2"
+                                }]
+                            }]
+                        }],
+                        "references":{
+                            "timeSlots":{
+                                "properties":{
+                                    "formatter":"yyyy-MM-dd"
+                                },
+                                "items":[{
+                                    "title":"среда, 14 апреля 2021, 10:00 - 19:00",
+                                    "value":"slot:0",
+                                    "properties":{
+                                        "time":"10:00-19:00",
+                                        "day":"2021-04-14"
+                                    }
+                                },
+                                {
+                                    "title":"четверг, 15 апреля 2021, 10:00 - 19:00",
+                                    "value":"slot:1",
+                                    "properties":{
+                                        "time":"10:00-19:00",
+                                        "day":"2021-04-15"
+                                    }
+                                },
+                                {
+                                    "title":"пятница, 16 апреля 2021, 10:00 - 19:00",
+                                    "value":"slot:2",
+                                    "properties":{
+                                        "time":"10:00-19:00",
+                                        "day":"2021-04-16"
+                                    }
+                                }]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }]
+}
