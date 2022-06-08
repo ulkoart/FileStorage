@@ -40,7 +40,7 @@
                                        "value":"false",
                                        "type":"checkbox",
                                        "referenceId":"",
-                                       "title":"Я соглашаюсь с условиями и <a>подписываю документ по операции</a>",
+                                       "title":"Я соглашаюсь с условиями и подписываю документ по операции",
                                        "readonly":false,
                                        "validators":[
                                           {
@@ -65,7 +65,30 @@
                               }
                            ]
                         }
-                     ]
+                     ],
+                     "references":{
+                        "e456689db3d1474bb27c0575166e272e":{
+                           "properties":{
+                              
+                           },
+                           "items":[
+                              {
+                                 "title":"",
+                                 "value":"http://localhost:9080/confirmation/ib/v1/fraudResponse?processId=fd3e103a-01d7-11e9-a9e7-890dd5773d0a&documentId=e456689db3d1474bb27c0575166e272e",
+                                 "properties":{
+                                    
+                                 }
+                              },
+                              {
+                                 "title":"",
+                                 "value":"http://localhost:9080/confirmation/ib/v1/documents?processId=fd3e103a-01d7-11e9-a9e7-890dd5773d0a&documentId=e456689db3d1474bb27c0575166e272e",
+                                 "properties":{
+                                    
+                                 }
+                              }
+                           ]
+                        }
+                     }
                   }
                }
             }
