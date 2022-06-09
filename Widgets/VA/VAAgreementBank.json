@@ -1,0 +1,255 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+    "card": {
+        "type": "list_card",
+        "paddings": {
+            "bottom": "8x",
+            "top": "8x"
+        },
+        "cells": [
+            {
+                "type": "left_right_cell_view",
+                "paddings": {
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "6x",
+                    "bottom": "6x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon": {
+                        "address": {
+                            "type": "local",
+                            "identificator": "card"
+                        },
+                        "tint_color": "solid_brand",
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "6x"
+                        }
+                    },
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                        "title": {
+                            "text": "Платежная система",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "max_lines": 0
+                        },
+                        "subtitle": {
+                            "text": "Visa",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "margins": {
+                                "top": "1x"
+                            }
+                        }
+                    }
+                },
+                "right": {
+                    "type": "detail_right_view",
+                    "detail": {
+                        "text": "Рубль",
+                        "typeface": "body1",
+                        "text_color": "default"
+                    },
+                    "vertical_gravity": "center"
+                },
+                "divider": {
+                    "style": "default",
+                    "size": "d5"
+                }
+            },
+            {
+                "type": "left_right_cell_view",
+                "paddings": {
+                    "top": "6x",
+                    "bottom": "6x",
+                    "left": "8x",
+                    "right": "8x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon": {
+                        "address": {
+                            "type": "local",
+                            "identificator": "bell"
+                        },
+                        "tint_color": "solid_brand",
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "6x"
+                        }
+                    },
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                        "title": {
+                            "text": "Счет карты",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "max_lines": 0
+                        },
+                        "subtitle": {
+                            "text": "Открыть новый",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "margins": {
+                                "top": "1x"
+                            }
+                        }
+                    }
+                },
+                "divider": {
+                    "style": "default",
+                    "size": "d5"
+                }
+            },
+            {
+                "type": "left_right_cell_view",
+                "paddings": {
+                    "top": "6x",
+                    "bottom": "6x",
+                    "left": "8x",
+                    "right": "8x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon": {
+                        "address": {
+                            "type": "local",
+                            "identificator": "bell"
+                        },
+                        "tint_color": "solid_brand",
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "6x"
+                        }
+                    },
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                        "title": {
+                            "text": "Уведомления по карте",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "max_lines": 0
+                        },
+                        "subtitle": {
+                            "text": "Все списания и зачисления",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "margins": {
+                                "top": "1x"
+                            }
+                        },
+                        "caption": {
+                            "text": "Бесплатно или 60 ₽ в месяц",
+                            "typeface": "footnote1",
+                            "text_color": "secondary"
+                        }
+                    }
+                },
+                "divider": {
+                    "style": "default",
+                    "size": "d5"
+                }
+            },
+            {
+                "type": "left_right_cell_view",
+                "paddings": {
+                    "top": "6x",
+                    "bottom": "6x",
+                    "left": "8x",
+                    "right": "8x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon": {
+                        "address": {
+                            "type": "local",
+                            "identificator": "user"
+                        },
+                        "tint_color": "solid_brand",
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "6x"
+                        }
+                    },
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                        "title": {
+                            "text": "Имя и фамилия на карте",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "max_lines": 0
+                        },
+                        "subtitle": {
+                            "text": "IVAN IVANOV",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "margins": {
+                                "top": "1x"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "type": "text_cell_view",
+                "paddings": {
+                    "top": "2x",
+                    "bottom": "2x",
+                    "left": "8x",
+                    "right": "8x"
+                },
+                "content": {
+                    "text": "Я соглашаюсь с условиями и подписываю документы по операции для получения дебетовой карты",
+                    "max_lines": 0,
+                    "typeface": "footnote1",
+                    "text_color": "default"
+                }
+            },
+            {
+                "type": "button_cell_view",
+                "content": {
+                    "text": "Согласиться и подтвердить",
+                    "typeface": "button1",
+                    "style": "default",
+                    "type": "accept",
+                    "actions": [
+                        {
+                            "type": "text",
+                            "text": "Согласился и подтвердил"
+                        }
+                    ],
+                    "margins": {
+                        "left": "10x",
+                        "top": "5x",
+                        "right": "10x",
+                        "bottom": "5x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "8x",
+                    "right": "8x"
+                }
+            }
+        ]
+    }
+}
+   ]
+}

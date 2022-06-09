@@ -1,0 +1,81 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+    "card": {
+        "type": "list_card",
+        "cells": [
+            {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "200 гонконгских долларов 🇭🇰",
+                    "typeface": "headline3",
+                    "text_color": "default",
+                    "max_lines": 0
+                },
+                "paddings": {
+                    "left": "8x",
+                    "top": "10x",
+                    "right": "8x"
+                }
+            },
+            {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "1 663 ₽",
+                    "typeface": "headline1",
+                    "text_color": "default",
+                    "max_lines": 0
+                },
+                "paddings": {
+                    "left": "8x",
+                    "top": "9x",
+                    "right": "8x"
+                }
+            },
+            {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "При покупке от 500 до 1 000 HKD\n100 HKD = 6,36 RUB\nСберБанк Онлайн сейчас",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 0
+                },
+                "paddings": {
+                    "left": "8x",
+                    "top": "10x",
+                    "right": "8x"
+                }
+            },
+            {
+                "type": "button_cell_view",
+                "content": {
+                    "text": "Купить",
+                    "typeface": "button1",
+                    "style": "default",
+                    "type": "accept",
+                    "actions": [
+                        {
+                            "type": "text",
+                            "text": "Купить"
+                        }
+                    ],
+                    "margins": {
+                        "left": "10x",
+                        "top": "5x",
+                        "right": "10x",
+                        "bottom": "5x"
+                    }
+                },
+                "paddings": {
+                    "left": "6x",
+                    "top": "12x",
+                    "right": "6x",
+                    "bottom": "8x"
+                }
+            }
+        ]
+    }
+}
+   ]
+}

@@ -1,0 +1,12 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+    "bubble": {
+        "text": "*Привет всем*",
+        "markdown": true,
+        "expand_policy": "auto_expand"
+    }
+}
+   ]
+}

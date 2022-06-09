@@ -1,0 +1,71 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+    "card": {
+        "type": "list_card",
+        "cells": [
+            {
+                "type": "left_right_cell_view",
+                "paddings": {
+                    "left": "8x",
+                    "top": "16x",
+                    "right": "4x",
+                    "bottom": "16x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon": {
+                        "address": {
+                            "type": "url",
+                            "url": "https://cdn.sberdevices.ru/VA/icons/first_session/balance.png"
+                        },
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "6x"
+                        }
+                    },
+                    "icon_vertical_gravity": "top",
+                    "texts": {
+                        "title": {
+                            "text": "Покажи баланс моей карты",
+                            "typeface": "headline2",
+                            "text_color": "default",
+                            "max_lines": 0
+                        }
+                    }
+                },
+                "right": {
+                    "type": "detail_right_view",
+                    "info_and_icon": {
+                        "icon": {
+                            "address": {
+                                "type": "url",
+                                "url": "https://cdn.sberdevices.ru/VA/icons/first_session/balance.png"
+                            },
+                            "size": {
+                                "width": "xlarge",
+                                "height": "xlarge"
+                            },
+                            "margins": {
+                                "left": "8x",
+                                "right": "12x"
+                            }
+                        }
+                    }
+                },
+                "actions": [
+                    {
+                        "type": "text",
+                        "text": "Вы нажали на карточку"
+                    }
+                ]
+            }
+        ]
+    }
+}
+   ]
+}

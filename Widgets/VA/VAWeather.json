@@ -1,0 +1,45 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+    "type": "weather_cell_view",
+    "content": [
+        {
+            "weekday": "Понедельник",
+            "date": "15 сентября",
+            "day": "+5°",
+            "night": "-5°",
+            "icon": {
+                "address": {
+                    "type": "url",
+                    "url": "https://example.ru/example.png"
+                },
+                "size": {
+                    "width": "small",
+                    "height": "small"
+                }
+            }
+        },
+        {
+            "weekday": "Вторник",
+            "date": "16 сентября",
+            "day": "+23°",
+            "night": "+12°",
+            "icon": {
+                "address": {
+                    "type": "url",
+                    "url": "https://example.ru/example.png"
+                },
+                "size": {
+                    "width": "small",
+                    "height": "small"
+                }
+            }
+        }
+    ],
+    "paddings": {
+        "top": "8x"
+    }
+}
+   ]
+}

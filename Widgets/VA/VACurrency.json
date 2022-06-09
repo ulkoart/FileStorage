@@ -1,0 +1,89 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+    "card": {
+        "type": "list_card",
+        "paddings": {
+            "left": "8x",
+            "right": "8x"
+        },
+        "cells": [
+            {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "Золото, 1 г",
+                    "typeface": "headline3",
+                    "text_color": "default",
+                    "max_lines": 0
+                },
+                "paddings": {
+                    "top": "10x"
+                }
+            },
+            {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "Купить",
+                    "typeface": "body1",
+                    "text_color": "secondary",
+                    "max_lines": 0
+                },
+                "paddings": {
+                    "top": "9x"
+                }
+            },
+            {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "4 932,00 ₽",
+                    "typeface": "headline1",
+                    "text_color": "default",
+                    "max_lines": 0
+                },
+                "paddings": {
+                    "top": "2x"
+                }
+            },
+            {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "Продать",
+                    "typeface": "body1",
+                    "text_color": "secondary",
+                    "max_lines": 0
+                },
+                "paddings": {
+                    "top": "8x"
+                }
+            },
+            {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "4 542,00 ₽",
+                    "typeface": "headline1",
+                    "text_color": "default",
+                    "max_lines": 0
+                },
+                "paddings": {
+                    "top": "2x"
+                }
+            },
+            {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "4 916,00 при покупке от 50 г\n4 558,00 при продаже от 50 г\nСберБанк Онлайн сейчас",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 0
+                },
+                "paddings": {
+                    "top": "10x",
+                    "bottom": "8x"
+                }
+            }
+        ]
+    }
+}
+   ]
+}

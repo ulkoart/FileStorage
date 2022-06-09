@@ -1,0 +1,69 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+    "card": {
+        "type": "list_card",
+        "paddings": {
+            "left": "9x",
+            "top": "9x",
+            "right": "9x",
+            "bottom": "9x"
+        },
+        "cells": [
+            {
+                "type": "left_right_cell_view",
+                "left": {
+                    "type": "simple_left_view",
+                    "texts": {
+                        "title": {
+                            "text": "Согласие на обработку персональных данных",
+                            "typeface": "headline3",
+                            "text_color": "default",
+                            "max_lines": 0
+                        },
+                        "subtitle": {
+                            "text": "Я соглашаюсь с условиями и подписываю Согласие на обработку персональных данных",
+                            "typeface": "footnote1",
+                            "text_color": "brand",
+                            "max_lines": 0,
+                            "margins": {
+                                "top": "5x"
+                            },
+                            "actions": [
+                                {
+                                    "type": "deep_link",
+                                    "deep_link": "https://sber.ru/salute/salute_consent_app.pdf"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "type": "button_cell_view",
+                "content": {
+                    "text": "Согласен",
+                    "typeface": "button1",
+                    "style": "default",
+                    "type": "accept",
+                    "actions": [
+                        {
+                            "type": "text",
+                            "text": "Согласен"
+                        }
+                    ],
+                    "margins": {
+                        "top": "4x",
+                        "bottom": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "9x"
+                }
+            }
+        ]
+    }
+}
+   ]
+}

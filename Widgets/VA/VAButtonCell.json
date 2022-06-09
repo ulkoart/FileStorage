@@ -1,0 +1,27 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+    "type": "button_cell_view",
+    "content": {
+        "text": "Согласен",
+        "typeface": "button1",
+        "style": "default",
+        "type": "accept",
+        "actions": [
+            {
+                "type": "text",
+                "text": "Согласен"
+            }
+        ],
+        "margins": {
+            "top": "4x",
+            "bottom": "4x"
+        }
+    },
+    "paddings": {
+        "top": "9x"
+    }
+}
+   ]
+}

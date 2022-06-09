@@ -1,0 +1,139 @@
+{
+   "type":"sdk_answer",
+   "items":[
+      {
+    "card": {
+        "type": "gallery_card",
+        "items": [
+            {
+                "type": "gallery_search_content_item",
+                "actions": [
+                    {
+                        "type": "deep_link",
+                        "deep_link": "https://sport-marafon.ru/catalog/zimnyaya-obuv/"
+                    }
+                ],
+                "width": "large",
+                "image": {
+                    "type": "url",
+                    "url": "https://cs5-2.4pda.to/6380085.png"
+                },
+                "title_text": {
+                    "text": "Теплая замняя обувь - магазин СПОРТ-МАРАФОН",
+                    "typeface": "body2",
+                    "text_color": "default",
+                    "max_lines": 2
+                },
+                "link_text": {
+                    "text": "sport-marafon.ru/catalog/zimnyaya-obuv",
+                    "typeface": "footnote1",
+                    "text_color": "brand",
+                    "max_lines": 1,
+                    "margins": {
+                        "top": "2x",
+                        "bottom": "2x"
+                    }
+                },
+                "description_text": {
+                    "text": "Времена валенок ушли, нынешний ассортимент зимней обуви куда богаче. Так что же предлагается в современных магазинах зимней обуви? Попробуем разобраться.",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 4,
+                    "margins": {
+                        "top": "2x"
+                    }
+                },
+                "paddings": {
+                    "top": "10x",
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "10x"
+                }
+            },
+            {
+                "type": "gallery_search_content_item",
+                "actions": [
+                    {
+                        "type": "deep_link",
+                        "deep_link": "https://sport-marafon.ru/catalog/zimnyaya-obuv/"
+                    }
+                ],
+                "width": "large",
+                "title_text": {
+                    "text": "СПОРТ-МАРАФОН",
+                    "typeface": "body2",
+                    "text_color": "default",
+                    "max_lines": 2
+                },
+                "link_text": {
+                    "text": "sport-marafon.ru/catalog/zimnyaya-obuv",
+                    "typeface": "footnote1",
+                    "text_color": "brand",
+                    "max_lines": 1,
+                    "margins": {
+                        "top": "2x",
+                        "bottom": "2x"
+                    }
+                },
+                "description_text": {
+                    "text": "Времена валенок ушли, нынешний ассортимент зимней обуви куда богаче. Так что же предлагается в современных магазинах зимней обуви? Попробуем разобраться.",
+                    "typeface": "footnote1",
+                    "text_color": "secondary",
+                    "max_lines": 4,
+                    "margins": {
+                        "top": "2x"
+                    }
+                },
+                "paddings": {
+                    "top": "10x",
+                    "left": "8x",
+                    "right": "8x",
+                    "bottom": "10x"
+                }
+            },
+            {
+                "type": "gallery_more_button_item",
+                "bottom_text": {
+                    "text": "Все результаты",
+                    "typeface": "caption",
+                    "text_color": "primary",
+                    "max_lines": 1,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "icon": {
+                    "tint_color": "solid_white",
+                    "address": {
+                        "type": "local",
+                        "identificator": "ellipsis"
+                    },
+                    "size": {
+                        "width": "small",
+                        "height": "small"
+                    }
+                },
+                "actions": [
+                    {
+                        "type": "deep_link",
+                        "deep_link": "https://sport-marafon.ru/catalog/obuv/"
+                    }
+                ]
+            }
+        ],
+        "bottom_text": {
+            "text": "Результаты поиска bing",
+            "typeface": "caption",
+            "text_color": "secondary",
+            "max_lines": 1,
+            "margins": {
+                "top": "6x",
+                "left": "8x",
+                "bottom": "6x",
+                "right": "8x"
+            }
+        }
+    }
+}
+   ]
+}
