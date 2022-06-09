@@ -3,177 +3,175 @@
    "items":[
       {
          "card":{
-            "card":{
-               "type":"list_card",
-               "paddings":{
-                  "top":"4x",
-                  "bottom":"4x"
-               },
-               "cells":[
-                  {
-                     "type":"button_cell_view",
-                     "content":{
-                        "text":"Green button",
-                        "typeface":"button1",
-                        "style":"default",
-                        "type":"accept",
-                        "actions":[
-                           {
-                              "type":"text",
-                              "text":"Green button pressed"
-                           }
-                        ],
-                        "margins":{
-                           "left":"10x",
-                           "top":"5x",
-                           "right":"10x",
-                           "bottom":"5x"
+            "type":"list_card",
+            "paddings":{
+               "top":"4x",
+               "bottom":"4x"
+            },
+            "cells":[
+               {
+                  "type":"button_cell_view",
+                  "content":{
+                     "text":"Green button",
+                     "typeface":"button1",
+                     "style":"default",
+                     "type":"accept",
+                     "actions":[
+                        {
+                           "type":"text",
+                           "text":"Green button pressed"
                         }
-                     },
-                     "paddings":{
-                        "left":"4x",
-                        "top":"4x",
-                        "right":"4x",
-                        "bottom":"4x"
+                     ],
+                     "margins":{
+                        "left":"10x",
+                        "top":"5x",
+                        "right":"10x",
+                        "bottom":"5x"
                      }
                   },
-                  {
-                     "type":"button_cell_view",
-                     "content":{
-                        "text":"Gray button",
-                        "typeface":"button1",
-                        "style":"default",
-                        "type":"disabled",
-                        "actions":[
-                           {
-                              "type":"text",
-                              "text":"Gray button pressed"
-                           }
-                        ],
-                        "margins":{
-                           "left":"10x",
-                           "top":"5x",
-                           "right":"10x",
-                           "bottom":"5x"
-                        }
-                     },
-                     "paddings":{
-                        "left":"4x",
-                        "top":"4x",
-                        "right":"4x",
-                        "bottom":"4x"
-                     }
-                  },
-                  {
-                     "type":"button_cell_view",
-                     "content":{
-                        "text":"Orange button",
-                        "typeface":"button1",
-                        "style":"default",
-                        "type":"negative",
-                        "actions":[
-                           {
-                              "type":"text",
-                              "text":"Orange button pressed"
-                           }
-                        ],
-                        "margins":{
-                           "left":"10x",
-                           "top":"5x",
-                           "right":"10x",
-                           "bottom":"5x"
-                        }
-                     },
-                     "paddings":{
-                        "left":"4x",
-                        "top":"4x",
-                        "right":"4x",
-                        "bottom":"4x"
-                     }
-                  },
-                  {
-                     "type":"button_cell_view",
-                     "content":{
-                        "text":"Green textColor button",
-                        "typeface":"button1",
-                        "style":"transparent",
-                        "type":"accept",
-                        "actions":[
-                           {
-                              "type":"text",
-                              "text":"Green textColor button pressed"
-                           }
-                        ],
-                        "margins":{
-                           "left":"10x",
-                           "top":"5x",
-                           "right":"10x",
-                           "bottom":"5x"
-                        }
-                     },
-                     "paddings":{
-                        "left":"4x",
-                        "top":"4x",
-                        "right":"4x",
-                        "bottom":"4x"
-                     }
-                  },
-                  {
-                     "type":"button_cell_view",
-                     "content":{
-                        "text":"Gray textColor button",
-                        "typeface":"button1",
-                        "style":"transparent",
-                        "type":"disabled",
-                        "actions":[
-                           {
-                              "type":"text",
-                              "text":"Gray textColor button pressed"
-                           }
-                        ],
-                        "margins":{
-                           "left":"10x",
-                           "top":"5x",
-                           "right":"10x",
-                           "bottom":"5x"
-                        }
-                     },
-                     "paddings":{
-                        "left":"4x",
-                        "top":"4x",
-                        "right":"4x",
-                        "bottom":"4x"
-                     }
-                  },
-                  {
-                     "type":"button_cell_view",
-                     "content":{
-                        "text":"Orange textColor button",
-                        "typeface":"button1",
-                        "style":"transparent",
-                        "type":"negative",
-                        "actions":[
-                           {
-                              "type":"text",
-                              "text":"Orange textColor button pressed"
-                           }
-                        ],
-                        "margins":{
-                           "left":"10x",
-                           "top":"5x",
-                           "right":"10x",
-                           "bottom":"5x"
-                        }
-                     },
-                     "paddings":{
-                        "left":"4x",
-                        "top":"4x",
-                        "right":"4x",
-                        "bottom":"4x"
-                     }
+                  "paddings":{
+                     "left":"4x",
+                     "top":"4x",
+                     "right":"4x",
+                     "bottom":"4x"
                   }
-               ]
-            }
+               },
+               {
+                  "type":"button_cell_view",
+                  "content":{
+                     "text":"Gray button",
+                     "typeface":"button1",
+                     "style":"default",
+                     "type":"disabled",
+                     "actions":[
+                        {
+                           "type":"text",
+                           "text":"Gray button pressed"
+                        }
+                     ],
+                     "margins":{
+                        "left":"10x",
+                        "top":"5x",
+                        "right":"10x",
+                        "bottom":"5x"
+                     }
+                  },
+                  "paddings":{
+                     "left":"4x",
+                     "top":"4x",
+                     "right":"4x",
+                     "bottom":"4x"
+                  }
+               },
+               {
+                  "type":"button_cell_view",
+                  "content":{
+                     "text":"Orange button",
+                     "typeface":"button1",
+                     "style":"default",
+                     "type":"negative",
+                     "actions":[
+                        {
+                           "type":"text",
+                           "text":"Orange button pressed"
+                        }
+                     ],
+                     "margins":{
+                        "left":"10x",
+                        "top":"5x",
+                        "right":"10x",
+                        "bottom":"5x"
+                     }
+                  },
+                  "paddings":{
+                     "left":"4x",
+                     "top":"4x",
+                     "right":"4x",
+                     "bottom":"4x"
+                  }
+               },
+               {
+                  "type":"button_cell_view",
+                  "content":{
+                     "text":"Green textColor button",
+                     "typeface":"button1",
+                     "style":"transparent",
+                     "type":"accept",
+                     "actions":[
+                        {
+                           "type":"text",
+                           "text":"Green textColor button pressed"
+                        }
+                     ],
+                     "margins":{
+                        "left":"10x",
+                        "top":"5x",
+                        "right":"10x",
+                        "bottom":"5x"
+                     }
+                  },
+                  "paddings":{
+                     "left":"4x",
+                     "top":"4x",
+                     "right":"4x",
+                     "bottom":"4x"
+                  }
+               },
+               {
+                  "type":"button_cell_view",
+                  "content":{
+                     "text":"Gray textColor button",
+                     "typeface":"button1",
+                     "style":"transparent",
+                     "type":"disabled",
+                     "actions":[
+                        {
+                           "type":"text",
+                           "text":"Gray textColor button pressed"
+                        }
+                     ],
+                     "margins":{
+                        "left":"10x",
+                        "top":"5x",
+                        "right":"10x",
+                        "bottom":"5x"
+                     }
+                  },
+                  "paddings":{
+                     "left":"4x",
+                     "top":"4x",
+                     "right":"4x",
+                     "bottom":"4x"
+                  }
+               },
+               {
+                  "type":"button_cell_view",
+                  "content":{
+                     "text":"Orange textColor button",
+                     "typeface":"button1",
+                     "style":"transparent",
+                     "type":"negative",
+                     "actions":[
+                        {
+                           "type":"text",
+                           "text":"Orange textColor button pressed"
+                        }
+                     ],
+                     "margins":{
+                        "left":"10x",
+                        "top":"5x",
+                        "right":"10x",
+                        "bottom":"5x"
+                     }
+                  },
+                  "paddings":{
+                     "left":"4x",
+                     "top":"4x",
+                     "right":"4x",
+                     "bottom":"4x"
+                  }
+               }
+            ]
          }
       }
    ]
