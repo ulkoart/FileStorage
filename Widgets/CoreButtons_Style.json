@@ -4,157 +4,155 @@
       {
          "card":{
             "type":"workflow",
-            "payload":
-            {
-    "success": true,
-    "body": {
-        "result": "SUCCESS",
-        "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
-        "flow": "DSNWidgetSandbox",
-        "state": "widgets",
-        "output": {
-            "screens": [
-                {
-                    "title": "CoreButton",
-                    "type": "DSNScreen",
-                    "header": [
+            "payload":{
+               "success":true,
+               "body":{
+                  "result":"SUCCESS",
+                  "pid":"80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+                  "flow":"DSNWidgetSandbox",
+                  "state":"widgets",
+                  "output":{
+                     "screens":[
                         {
-                            "type": "CoreNavBar",
-                            "title": "CoreButton",
-                            "events": [
-                                {
-                                    "cmd": "EXIT",
-                                    "title": "На предыдущий экран",
-                                    "description": "Переход на предыдущий экран"
-                                }
-                            ]
+                           "title":"CoreButton",
+                           "type":"DSNScreen",
+                           "header":[
+                              {
+                                 "type":"CoreNavBar",
+                                 "title":"CoreButton",
+                                 "events":[
+                                    {
+                                       "cmd":"EXIT",
+                                       "title":"На предыдущий экран",
+                                       "description":"Переход на предыдущий экран"
+                                    }
+                                 ]
+                              }
+                           ],
+                           "widgets":[
+                              {
+                                 "type":"CoreButtons",
+                                 "events":[
+                                    {
+                                       "uri":"nav:next",
+                                       "title":"Без STYLE",
+                                       "description":"Переход на следующий экран"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreButtons",
+                                 "properties":{
+                                    "style":"ACCEPT"
+                                 },
+                                 "events":[
+                                    {
+                                       "uri":"nav:next",
+                                       "title":"ACCEPT",
+                                       "description":"Переход на следующий экран"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreButtons",
+                                 "properties":{
+                                    "style":"ACCEPTINVERSE"
+                                 },
+                                 "events":[
+                                    {
+                                       "uri":"nav:next",
+                                       "title":"ACCEPTINVERSE",
+                                       "description":"Переход на следующий экран"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreButtons",
+                                 "properties":{
+                                    "style":"ACCEPTTRANSPARENT"
+                                 },
+                                 "events":[
+                                    {
+                                       "uri":"nav:next",
+                                       "title":"ACCEPTTRANSPARENT",
+                                       "description":"Переход на следующий экран"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreButtons",
+                                 "properties":{
+                                    "style":"NEGATIVE"
+                                 },
+                                 "events":[
+                                    {
+                                       "uri":"nav:next",
+                                       "title":"NEGATIVE",
+                                       "description":"Переход на следующий экран"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreButtons",
+                                 "properties":{
+                                    "style":"NEGATIVEINVERSE"
+                                 },
+                                 "events":[
+                                    {
+                                       "uri":"nav:next",
+                                       "title":"NEGATIVEINVERSE",
+                                       "description":"Переход на следующий экран"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreButtons",
+                                 "properties":{
+                                    "style":"NEGATIVETRANSPARENT"
+                                 },
+                                 "events":[
+                                    {
+                                       "uri":"nav:next",
+                                       "title":"NEGATIVETRANSPARENT",
+                                       "description":"Переход на следующий экран"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreButtons",
+                                 "properties":{
+                                    "style":"ACCEPTTRANSPARENTLEFT"
+                                 },
+                                 "events":[
+                                    {
+                                       "uri":"nav:next",
+                                       "title":"ACCEPTTRANSPARENTLEFT",
+                                       "description":"Переход на следующий экран"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "type":"CoreButtons",
+                                 "properties":{
+                                    "style":"whitetransparent"
+                                 },
+                                 "events":[
+                                    {
+                                       "uri":"nav:next",
+                                       "title":"whitetransparent",
+                                       "description":"Переход на следующий экран"
+                                    }
+                                 ]
+                              }
+                           ],
+                           "footer":[
+                              
+                           ]
                         }
-                    ],
-                    "widgets": [
-                        {
-                            "type": "CoreButtons",
-                            "events": [
-                                {
-                                    "uri": "nav:next",
-                                    "title": "Без STYLE",
-                                    "description": "Переход на следующий экран"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "CoreButtons",
-                            "properties":{
-                                "style": "ACCEPT"
-                            },
-                            "events": [
-                                {
-                                    "uri": "nav:next",
-                                    "title": "ACCEPT",
-                                    "description": "Переход на следующий экран"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "CoreButtons",
-                             "properties":{
-                                "style": "ACCEPTINVERSE"
-                            },
-                            "events": [
-                                {
-                                    "uri": "nav:next",
-                                    "title": "ACCEPTINVERSE",
-                                    "description": "Переход на следующий экран"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "CoreButtons",
-                            "properties":{
-                                "style": "ACCEPTTRANSPARENT"
-                            },
-                            "events": [
-                                {
-                                    "uri": "nav:next",
-                                    "title": "ACCEPTTRANSPARENT",
-                                    "description": "Переход на следующий экран"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "CoreButtons",
-                            "properties":{
-                                "style": "NEGATIVE"
-                            },
-                            "events": [
-                                {
-                                    "uri": "nav:next",
-                                    "title": "NEGATIVE",
-                                    "description": "Переход на следующий экран"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "CoreButtons",
-                            "properties":{
-                                "style": "NEGATIVEINVERSE"
-                            },
-                            "events": [
-                                {
-                                    "uri": "nav:next",
-                                    "title": "NEGATIVEINVERSE",
-                                    "description": "Переход на следующий экран"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "CoreButtons",
-                            "properties":{
-                                "style": "NEGATIVETRANSPARENT"
-                            },
-                            "events": [
-                                {
-                                    "uri": "nav:next",
-                                    "title": "NEGATIVETRANSPARENT",
-                                    "description": "Переход на следующий экран"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "CoreButtons",
-                            "properties":{
-                                "style": "ACCEPTTRANSPARENTLEFT"
-                            },
-                            "events": [
-                                {
-                                    "uri": "nav:next",
-                                    "title": "ACCEPTTRANSPARENTLEFT",
-                                    "description": "Переход на следующий экран"
-                                }
-                            ]
-                        },
-                         {
-                            "type": "CoreButtons",
-                            "properties":{
-                                "style": "whitetransparent"
-                            },
-                            "events": [
-                                {
-                                    "uri": "nav:next",
-                                    "title": "whitetransparent",
-                                    "description": "Переход на следующий экран"
-                                }
-                            ]
-                        }
-                    ],
-                    "footer": [
-                                                                                  
-                    ]
-                }
-            ]
-        }
-    }
-}
-
+                     ]
+                  }
+               }
+            }
          }
       }
    ]
