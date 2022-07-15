@@ -1,11 +1,11 @@
 {
-  "type": "sdk_answer",
-  "items": [
-    {
-      "card": {
-        "type": "workflow",
-        "payload": {
-         
+   "type":"sdk_answer",
+   "items":[
+      {
+         "card":{
+            "type":"workflow",
+            "payload":
+            {
     "success": true,
     "body": {
         "result": "SUCCESS",
@@ -155,11 +155,7 @@
     }
 }
 
-              }
-            
-          }
-        
-      
-    
-  ]
+         }
+      }
+   ]
 }
