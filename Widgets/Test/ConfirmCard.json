@@ -152,7 +152,8 @@
                                  "events":[
                                     {
                                        "cmd":"confirm",
-                                       "name":"confirm"
+                                       "name":"confirm",
+                                       "title": "Подтвердить"
                                     }
                                  ]
                               }
