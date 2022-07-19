@@ -67,7 +67,7 @@
                                  "events":[
                                     {
                                        "cmd":"change_user",
-                                       "name":"select"
+                                       "name":"change_count"
                                     }
                                  ],
                                  "fields":[
@@ -90,7 +90,7 @@
                                  "events":[
                                     {
                                        "cmd":"change_count",
-                                       "name":"select"
+                                       "name":"change_count"
                                     }
                                  ],
                                  "fields":[
@@ -152,7 +152,7 @@
                                  "events":[
                                     {
                                        "cmd":"confirm",
-                                       "name":"select"
+                                       "name":"confirm"
                                     }
                                  ]
                               }
