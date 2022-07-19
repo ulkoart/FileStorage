@@ -105,8 +105,9 @@
                               },
                               {
                                  "type":"CoreCell",
+                                 "readonly":true,
                                  "properties":{
-                                    "disclosure":true,
+                                    "disclosure":false,
                                     "icon":"document",
                                     "devider":"bold",
                                     "caption":"По курсу 1 = 0.9"
@@ -116,6 +117,7 @@
                                        "id":"FIO",
                                        "value":"UP_TO_3_GOLD_CARDS",
                                        "title":"90 бонусов",
+                                       "readonly":true,
                                        "type":"text",
                                        "description":"Будет переведено"
                                     }
