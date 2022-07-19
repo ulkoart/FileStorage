@@ -4,23 +4,31 @@
       {
          "card":{
             "event_to_actions":{
-               "next":{
+               "change_user":{
                   "actions":[
                      {
-                        "type":"change_user",
+                        "type":"text",
                         "text":"Изменить получателя",
                         "should_send_to_backend":true
-                     },
+                     }
+                  ]
+               },
+               "change_count":{
+                  "actions":[
                      {
-                        "type":"change_count",
-                        "text":"Изменить количество бонусов",
+                        "type":"text",
+                        "text":"Изменить количество баллов",
                         "should_send_to_backend":true
-                     },
+                     }
+                  ]
+               },
+               "confirm":{
+                  "actions":[
                      {
-                        "type":"confirm",
+                        "type":"text",
                         "text":"Подтверждаю",
                         "should_send_to_backend":true
-                     },
+                     }
                   ]
                }
             },
