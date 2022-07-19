@@ -67,7 +67,7 @@
                                  "events":[
                                     {
                                        "cmd":"change_user",
-                                       "name":"change_count"
+                                       "name":"change_user"
                                     }
                                  ],
                                  "fields":[
