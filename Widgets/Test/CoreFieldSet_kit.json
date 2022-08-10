@@ -1,0 +1,110 @@
+{
+   "type": "sdk_answer",
+   "items": [
+      {
+         "card": {
+            "type": "workflow",
+            "payload": {
+               "success": true,
+               "body": {
+                  "result": "SUCCESS",
+                  "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+                  "flow": "Playground",
+                  "state": "state0",
+                  "output": {
+                     "screens": [
+                        {
+                           "title": "CoreFieldSet",
+                           "description": "Виджеты",
+                           "header": [
+                              {
+                                 "type": "CoreNavBar",
+                                 "title": "CoreFieldSet",
+                                 "events": [
+                                    {
+                                       "cmd": "EXIT",
+                                       "title": "На предыдущий экран",
+                                       "description": "Переход на предыдущий экран"
+                                    }
+                                 ]
+                              }
+                           ],
+                           "widgets": [
+                              {
+                                 "type": "CoreFieldSet",
+                                 "title": "Простые текстовые поля",
+                                 "properties": {},
+                                 "fields": [
+                                    {
+                                       "id": "phone01",
+                                       "type": "text",
+                                       "format": "phone",
+                                       "style": "ic_24_phone",
+                                       "title": "Телефон",
+                                       "value": "9095556677",
+                                       "description": "Поле для ввода телефона",
+                                       "readonly": false
+                                    },
+                                    {
+                                       "id": "text01",
+                                       "type": "text",
+                                       "style": "ic_24_text",
+                                       "title": "Обычное Текстовое поле",
+                                       "value": "value value",
+                                       "description": "Описание текстового поля",
+                                       "readonly": false
+                                    },
+                                    {
+                                       "id": "text02",
+                                       "type": "text",
+                                       "style": "ic_24_text",
+                                       "formatConfig": "words",
+                                       "title": "Обычное Текстовое поле",
+                                       "value": "value value value value",
+                                       "description": "autocapitalization words",
+                                       "readonly": false
+                                    },
+                                    {
+                                       "id": "text03",
+                                       "type": "text",
+                                       "formatConfig": "sentences",
+                                       "style": "ic_24_text",
+                                       "title": "Обычное Текстовое поле",
+                                       "value": "value value value value",
+                                       "description": "autocapitalization sentences",
+                                       "readonly": false
+                                    },
+                                    {
+                                       "id": "text04",
+                                       "type": "text",
+                                       "formatConfig": "allcharacters",
+                                       "style": "ic_24_text",
+                                       "title": "Обычное Текстовое поле",
+                                       "value": "value value value value",
+                                       "description": "autocapitalization allcharacters",
+                                       "readonly": false
+                                    }
+                                 ]
+                              }
+                           ],
+                           "footer": [
+                              {
+                                 "type": "CoreButtons",
+                                 "events": [
+                                    {
+                                       "name": "formatcfs",
+                                       "cmd": "EVENT",
+                                       "title": "Виджеты с форматтами"
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               }
+            }
+         }
+      }
+   ]
+}
