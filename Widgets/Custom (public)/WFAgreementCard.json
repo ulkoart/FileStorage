@@ -72,7 +72,7 @@
                                  "description":"Подтверждая, вы соглашаетесь с документами",
                                  "fields":[
                                     {
-                                       "id":"WFAgreementCard_1",
+                                       "id":"456028212",
                                        "value":"false",
                                        "type":"checkbox",
                                        "referenceId":"",
@@ -127,7 +127,7 @@
                                  "fields":[
                                     {
                                        "style":"noIcon",
-                                       "id":"WFAgreementCard_2",
+                                       "id":"642762042",
                                        "type":"text",
                                        "title":"Название",
                                        "value":"Сберегательный счёт",
@@ -138,7 +138,7 @@
                                     },
                                     {
                                        "style":"noIcon",
-                                       "id":"WFAgreementCard_3",
+                                       "id":"908045421",
                                        "type":"text",
                                        "title":"Валюта",
                                        "value":"Рубль",
@@ -149,7 +149,7 @@
                                     },
                                     {
                                        "style":"noIcon",
-                                       "id":"WFAgreementCard_4",
+                                       "id":"578682870",
                                        "type":"text",
                                        "title":"Ставка",
                                        "value":"1%",
@@ -160,7 +160,7 @@
                                     },
                                     {
                                        "style":"noIcon",
-                                       "id":"WFAgreementCard_5",
+                                       "id":"812411541",
                                        "type":"text",
                                        "title":"Пополнение и снятие",
                                        "value":"В любое время без ограничений",
@@ -171,7 +171,7 @@
                                     },
                                     {
                                        "style":"noIcon",
-                                       "id":"WFAgreementCard_6",
+                                       "id":"988989147",
                                        "type":"text",
                                        "title":"Проценты выплачиваются",
                                        "value":"На счёт",
@@ -190,7 +190,7 @@
                                  "fields":[
                                     {
                                        "style":"noIcon",
-                                       "id":"WFAgreementCard_7",
+                                       "id":"987534037",
                                        "type":"text",
                                        "title":"Периодичность выплаты процентов",
                                        "value":"Каждый месяц",
