@@ -36,7 +36,7 @@
                                  "description":"Подтверждая, Вы соглашаетесь с документами",
                                  "fields":[
                                     {
-                                       "id":"agreement",
+                                       "id":"ConfirmationSummaryPdfDocuments_1",
                                        "value":"false",
                                        "type":"checkbox",
                                        "referenceId":"",
