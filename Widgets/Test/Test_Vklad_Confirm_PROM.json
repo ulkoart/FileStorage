@@ -72,7 +72,7 @@
                                  "description":"Подтверждая, вы соглашаетесь с документами",
                                  "fields":[
                                     {
-                                       "id":"agreement",
+                                       "id":"417141917",
                                        "value":"false",
                                        "type":"checkbox",
                                        "referenceId":"",
@@ -127,7 +127,7 @@
                                  "fields":[
                                     {
                                        "style":"noIcon",
-                                       "id":"name",
+                                       "id":"489640124",
                                        "type":"text",
                                        "title":"Название",
                                        "value":"Сберегательный счёт",
@@ -138,7 +138,7 @@
                                     },
                                     {
                                        "style":"noIcon",
-                                       "id":"currency",
+                                       "id":"174274433",
                                        "type":"text",
                                        "title":"Валюта",
                                        "value":"Рубль",
@@ -149,7 +149,7 @@
                                     },
                                     {
                                        "style":"noIcon",
-                                       "id":"rate",
+                                       "id":"916001619",
                                        "type":"text",
                                        "title":"Ставка",
                                        "value":"1%",
@@ -160,7 +160,7 @@
                                     },
                                     {
                                        "style":"noIcon",
-                                       "id":"income_withdraw",
+                                       "id":"409217993",
                                        "type":"text",
                                        "title":"Пополнение и снятие",
                                        "value":"В любое время без ограничений",
@@ -171,7 +171,7 @@
                                     },
                                     {
                                        "style":"noIcon",
-                                       "id":"prolongation",
+                                       "id":"171452723",
                                        "type":"text",
                                        "title":"Проценты выплачиваются",
                                        "value":"На счёт",
@@ -190,7 +190,7 @@
                                  "fields":[
                                     {
                                        "style":"noIcon",
-                                       "id":"content0",
+                                       "id":"840846843",
                                        "type":"text",
                                        "title":"Периодичность выплаты процентов",
                                        "value":"Каждый месяц",
