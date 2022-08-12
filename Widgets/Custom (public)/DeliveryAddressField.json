@@ -28,7 +28,7 @@
                                  },
                                  "fields":[
                                     {
-                                       "id":"address:id",
+                                       "id":"DeliveryAddressField_1",
                                        "type":"text",
                                        "title":"Улица, дом, корпус, строение",
                                        "value":"Омская улица, 17",
