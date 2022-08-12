@@ -49,7 +49,7 @@
                                  "description":"Подтверждая, вы соглашаетесь с документами",
                                  "fields":[
                                     {
-                                       "id":"agreement",
+                                       "id":"885104319",
                                        "value":"",
                                        "type":"text",
                                        "title":"Я соглашаюсь с условиями и подписываю <a>Договор о счёте</a>"
@@ -81,7 +81,7 @@
                                  "type":"CoreFormattedText",
                                  "fields":[
                                     {
-                                       "id":"approvalCoreFormattedText",
+                                       "id":"158507051",
                                        "type":"text",
                                        "title":"",
                                        "value":"## Вы открываете Накопительный счёт",
@@ -97,7 +97,7 @@
                                  "type":"CoreCollapse",
                                  "fields":[
                                     {
-                                       "id":"collapse",
+                                       "id":"699537607",
                                        "type":"checkbox",
                                        "title":"Ставка 15%",
                                        "value":"false",
@@ -116,7 +116,7 @@
                                  },
                                  "fields":[
                                     {
-                                       "id":"rateCoreFieldSet",
+                                       "id":"316688228",
                                        "type":"text",
                                        "title":"Ставка по счёту",
                                        "value":"12%",
@@ -126,7 +126,7 @@
                                        "masked":false
                                     },
                                     {
-                                       "id":"rateCoreFieldSet",
+                                       "id":"196268832",
                                        "type":"text",
                                        "title":"За открытие счёта впервые",
                                        "value":"3,5%",
@@ -137,7 +137,7 @@
                                     }
                                  ],
                                  "visible":{
-                                    "id":"collapse",
+                                    "id":"914855474",
                                     "regexp":"true"
                                  }
                               },
@@ -148,7 +148,7 @@
                                  },
                                  "fields":[
                                     {
-                                       "id":"currency",
+                                       "id":"492802914",
                                        "type":"text",
                                        "title":"Валюта",
                                        "value":"Рубль",
@@ -159,7 +159,7 @@
                                        "style":"noIcon"
                                     },
                                     {
-                                       "id":"income_withdraw",
+                                       "id":"837917171",
                                        "type":"text",
                                        "title":"Пополнение и снятие",
                                        "value":"В любое время без ограничений",
@@ -170,7 +170,7 @@
                                        "style":"noIcon"
                                     },
                                     {
-                                       "id":"prolongation",
+                                       "id":"435356252",
                                        "type":"text",
                                        "title":"Проценты выплачиваются",
                                        "value":"На счёт",
@@ -189,7 +189,7 @@
                                  },
                                  "fields":[
                                     {
-                                       "id":"content0",
+                                       "id":"468902355",
                                        "type":"text",
                                        "title":"Периодичность выплаты процентов",
                                        "value":"Каждый месяц",
