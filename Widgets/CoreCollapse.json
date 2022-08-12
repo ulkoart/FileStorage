@@ -26,7 +26,7 @@
                 "widgets": [{
                         "type": "CoreCollapse",
                         "fields": [{
-                            "id": "consent:id:4",
+                            "id": "362395320",
                             "type": "checkbox",
                             "title": "Вот тут coreCollapse",
                             "value": "false",
@@ -36,11 +36,11 @@
                     {
                         "type": "CoreFormattedText",
                         "visible": {
-                            "id": "consent:id:4",
+                            "id": "602140706",
                             "regexp": "true"
                         },
                         "fields": [{
-                            "id": "statusInfo:1",
+                            "id": "150676956",
                             "type": "text",
                             "readonly": true,
                             "value": "####А вот тут вложенный виджет coreFormattedText",
@@ -56,11 +56,11 @@
                             "disclosure": "false"
                         },
                         "visible": {
-                            "id": "consent:id:4",
+                            "id": "807421551",
                             "regexp": "true"
                         },
                         "fields": [{
-                            "id": "consent:id:6",
+                            "id": "132745692",
                             "type": "text",
                             "title": "А вот тут вложенный coreCell",
                             "description": "Отчёт можно скачать на телефон, в формате PDF"
