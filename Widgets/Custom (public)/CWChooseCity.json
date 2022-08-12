@@ -24,7 +24,7 @@
                                  },
                                  "fields":[
                                     {
-                                       "id":"obtained:subject",
+                                       "id":"CWChooseCity_1",
                                        "type":"text",
                                        "title":"Город",
                                        "value":"Москва"
