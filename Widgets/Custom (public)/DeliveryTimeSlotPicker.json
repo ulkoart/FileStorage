@@ -20,7 +20,7 @@
                                     "earlyDateMessage":"Карта еще не выпущена"
                                 },
                                 "fields":[{
-                                    "id":"selected:slot:id",
+                                    "id":"DeliveryTimeSlotPicker_1",
                                     "type":"select",
                                     "referenceId":"timeSlots",
                                     "value":"slot:2"
