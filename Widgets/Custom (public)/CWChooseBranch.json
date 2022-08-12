@@ -18,7 +18,7 @@
                               {
                                  "type":"CWChooseBranch",
                                  "visible":{
-                                    "id":"CWChooseBranch_1",
+                                    "id":"597323106",
                                     "regexp":"branch"
                                  },
                                  "properties":{
@@ -32,7 +32,7 @@
                                  },
                                  "fields":[
                                     {
-                                       "id":"CWChooseBranch_2",
+                                       "id":"153348197",
                                        "type":"text",
                                        "title":"Офис, где получу карту",
                                        "value":"шоссе Коровинское, 21"
