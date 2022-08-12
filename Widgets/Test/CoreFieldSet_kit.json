@@ -36,7 +36,7 @@
                                  "properties": {},
                                  "fields": [
                                     {
-                                       "id": "phone01",
+                                       "id": "822535180",
                                        "type": "text",
                                        "format": "phone",
                                        "style": "ic_24_phone",
@@ -46,7 +46,7 @@
                                        "readonly": false
                                     },
                                     {
-                                       "id": "text01",
+                                       "id": "911478651",
                                        "type": "text",
                                        "style": "ic_24_text",
                                        "title": "Обычное Текстовое поле",
@@ -55,7 +55,7 @@
                                        "readonly": false
                                     },
                                     {
-                                       "id": "text02",
+                                       "id": "584267953",
                                        "type": "text",
                                        "style": "ic_24_text",
                                        "formatConfig": "words",
@@ -65,7 +65,7 @@
                                        "readonly": false
                                     },
                                     {
-                                       "id": "text03",
+                                       "id": "457080395",
                                        "type": "text",
                                        "formatConfig": "sentences",
                                        "style": "ic_24_text",
@@ -75,7 +75,7 @@
                                        "readonly": false
                                     },
                                     {
-                                       "id": "text04",
+                                       "id": "661147252",
                                        "type": "text",
                                        "formatConfig": "allcharacters",
                                        "style": "ic_24_text",
