@@ -36,7 +36,7 @@
                                  "properties": {},
                                  "fields": [
                                     {
-                                       "id": "822535180",
+                                       "id": "phone01",
                                        "type": "text",
                                        "format": "phone",
                                        "style": "ic_24_phone",
@@ -46,7 +46,7 @@
                                        "readonly": false
                                     },
                                     {
-                                       "id": "911478651",
+                                       "id": "text01",
                                        "type": "text",
                                        "style": "ic_24_text",
                                        "title": "Обычное Текстовое поле",
@@ -55,7 +55,7 @@
                                        "readonly": false
                                     },
                                     {
-                                       "id": "584267953",
+                                       "id": "text02",
                                        "type": "text",
                                        "style": "ic_24_text",
                                        "formatConfig": "words",
@@ -65,7 +65,7 @@
                                        "readonly": false
                                     },
                                     {
-                                       "id": "457080395",
+                                       "id": "text03",
                                        "type": "text",
                                        "formatConfig": "sentences",
                                        "style": "ic_24_text",
@@ -75,7 +75,7 @@
                                        "readonly": false
                                     },
                                     {
-                                       "id": "661147252",
+                                       "id": "text04",
                                        "type": "text",
                                        "formatConfig": "allcharacters",
                                        "style": "ic_24_text",

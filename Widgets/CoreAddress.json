@@ -44,7 +44,7 @@
                                 },
                                 "fields": [
                                     {
-                                        "id": "445069441",
+                                        "id": "coreFIAS:addressId",
                                         "type": "text",
                                         "title": "Заполните адрес",
                                         "description": "Адрес",
@@ -59,7 +59,7 @@
                                         ]
                                     },
                                     {
-                                        "id": "292577347",
+                                        "id": "coreFIAS:flat",
                                         "type": "text",
                                         "value": "",
                                         "style": "noIcon"

@@ -41,7 +41,7 @@
                     "type": "CoreCollapse",
                     "fields": [
                       {
-                        "id": "172980988",
+                        "id": "fieldSet:switch",
                         "type": "checkbox",
                         "title": "О курсах перевода",
                         "value": "false",
@@ -52,12 +52,12 @@
                   {
                     "type": "CoreFormattedText",
                     "visible": {
-                      "id": "280794454",
+                      "id": "fieldSet:switch",
                       "regexp": "true"
                     },
                     "fields": [
                       {
-                        "id": "196343601",
+                        "id": "text",
                         "type": "text",
                         "readonly": true,
                         "value": "##### Курс перевода зависит от вашего уровня в СберСпасибо: чем выше уровень, тем выгоднее курс\n\nСпасибо: перевод бонусов недоступен\nБольшое Спасибо: 1 Б = 0,8 Б\n##### Огромное Спасибо: 1 Б = 0,9 Б\nБольше, чем Спасибо: 1 Б = 0,95 Б"
@@ -73,7 +73,7 @@
                     "properties": {},
                     "fields": [
                       {
-                        "id": "794169146",
+                        "id": "agreement",
                         "value": "false",
                         "type": "checkbox",
                         "referenceId": "agreement",

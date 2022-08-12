@@ -24,7 +24,7 @@
                                  },
                                  "fields":[
                                     {
-                                       "id":"329871853",
+                                       "id":"obtained:subject",
                                        "type":"text",
                                        "title":"Город",
                                        "value":"Москва"

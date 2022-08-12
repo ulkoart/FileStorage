@@ -24,7 +24,7 @@
               "description": "Подтверждая, Вы соглашаетесь с документами",
               "fields": [
                 {
-                  "id": "135828457",
+                  "id": "agreement",
                   "value": "false",
                   "type": "checkbox",
                   "referenceId": "",

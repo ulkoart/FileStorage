@@ -43,7 +43,7 @@
                            "fields":[
                               {
                                  "title":"STYLE DEFAULT",
-                                 "id":"861728787",
+                                 "id":"statusInfo:3",
                                  "readonly":false,
                                  "value": "value_1",
                                  "type":"text",
@@ -64,7 +64,7 @@
                            "fields":[
                               {
                                  "title":"STYLE brandtitle",
-                                 "id":"606856659",
+                                 "id":"statusInfo:4",
                                  "readonly":false,
                                  "value": "value_1",
                                  "type":"text",
@@ -85,7 +85,7 @@
                            "fields":[
                               {
                                  "title":"STYLE warningtitle",
-                                 "id":"871865396",
+                                 "id":"statusInfo:4",
                                  "value": "value_1",
                                  "readonly":false,
                                  "type":"text",
@@ -106,7 +106,7 @@
                            "fields":[
                               {
                                  "title":"STYLE warningbody",
-                                 "id":"229640731",
+                                 "id":"statusInfo:4",
                                  "readonly":false,
                                  "value": "value_1",
                                  "type":"text",
@@ -127,7 +127,7 @@
                            "fields":[
                               {
                                  "title":"STYLE warningsubtitle",
-                                 "id":"694084422",
+                                 "id":"statusInfo:4",
                                  "readonly":false,
                                  "value": "value_1",
                                  "type":"text",
@@ -148,7 +148,7 @@
                            "fields":[
                               {
                                  "title":"STYLE graycontent",
-                                 "id":"413382078",
+                                 "id":"statusInfo:4",
                                  "readonly":false,
                                  "value": "value_1",
                                  "type":"text",
@@ -169,7 +169,7 @@
                            },
                            "fields":[
                               {
-                                 "id":"279939984",
+                                 "id":"CoreCell:1",
                                  "type":"text",
                                  "title":"До 5 премиальных карт",
                                  "description":"Для всего остального есть мастеркард"
@@ -194,7 +194,7 @@
                            },
                            "fields":[
                               {
-                                 "id":"750104452",
+                                 "id":"CoreCell:1",
                                  "type":"text",
                                  "title":"До 5 премиальных карт",
                                  "description":"Для всего остального есть мастеркард"
@@ -219,7 +219,7 @@
                            },
                            "fields":[
                               {
-                                 "id":"544568575",
+                                 "id":"CoreCell:1",
                                  "type":"text",
                                  "title":"До 5 премиальных карт",
                                  "description":"Для всего остального есть мастеркард"
