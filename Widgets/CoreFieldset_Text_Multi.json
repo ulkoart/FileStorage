@@ -5,7 +5,7 @@
       "card": {
         "type": "workflow",
         "payload": {
-         
+
     "success": true,
     "body": {
         "result": "SUCCESS",
@@ -50,6 +50,15 @@
                         "description": "description",
                         "style": "calendar",
                         "value": "123dassadsasadasd"
+                    }, {
+                        "id": "fieldSet:string",
+                        "type": "text",
+                        "format": "multiline",
+                        "readonly": true,
+                        "title": "readonly",
+                        "description": "description",
+                        "style": "calendar",
+                        "value": "Текст readonly"
                     }]
                 }]
             }]
@@ -57,10 +66,10 @@
     }
 }
               }
-            
+
           }
-        
-      
-    
+
+
+
   ]
 }
