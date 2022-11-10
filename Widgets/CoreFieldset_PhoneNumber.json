@@ -35,10 +35,10 @@
                              "type":"text",
                              "title":"Ввод номера телефона",
                              "value":"",
-                             "format":"ds_ic_24_phone",
+                             "format":"phone",
                              "readonly":false,
                              "description":"описание текстового поля",
-                             "style":"Phone",
+                             "style":"ds_ic_24_phone",
                              "formatConfig":"+7([000]) [00] [00] [00]"
                           },
                           {
@@ -46,10 +46,10 @@
                              "type":"text",
                              "title":"Ввод номера телефона readOnly",
                              "value":"89034517098",
-                             "format":"ds_ic_24_phone",
+                             "format":"phone",
                              "readonly":true,
                              "description":"описание текстового поля readOnly",
-                             "style":"Phone",
+                             "style":"ds_ic_24_phone",
                              "formatConfig":"+7([000]) [00] [00] [00]"
                           }
                        ]
