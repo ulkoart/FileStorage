@@ -40,18 +40,12 @@
                              "description":"описание текстового поля",
                              "style":"Phone",
                              "formatConfig":"+7([000]) [00] [00] [00]"
-                          }
-                       ]
-                    },
-                    {
-                       "type":"CoreFieldSet",
-                       "description":"",
-                       "fields":[
+                          },
                           {
                              "id":"fieldSet:Phone",
                              "type":"text",
-                             "title":"Ввод номера телефона",
-                             "value":"",
+                             "title":"Ввод номера телефона readOnly",
+                             "value":"89034517098",
                              "format":"phone",
                              "readonly":true,
                              "description":"описание текстового поля readOnly",
