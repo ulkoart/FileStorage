@@ -5,7 +5,7 @@
       "card": {
         "type": "workflow",
         "payload": {
-         
+
     "success": true,
     "body": {
         "result": "SUCCESS",
@@ -42,6 +42,23 @@
                              "formatConfig":"+7([000]) [00] [00] [00]"
                           }
                        ]
+                    },
+                    {
+                       "type":"CoreFieldSet",
+                       "description":"",
+                       "fields":[
+                          {
+                             "id":"fieldSet:Phone",
+                             "type":"text",
+                             "title":"Ввод номера телефона",
+                             "value":"",
+                             "format":"phone",
+                             "readonly":true,
+                             "description":"описание текстового поля readOnly",
+                             "style":"Phone",
+                             "formatConfig":"+7([000]) [00] [00] [00]"
+                          }
+                       ]
                     }
                 ],
                 "footer": [
@@ -52,10 +69,10 @@
 }
 
               }
-            
+
           }
-        
-      
-    
+
+
+
   ]
 }
