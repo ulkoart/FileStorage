@@ -1,0 +1,82 @@
+{
+  "type": "sdk_answer",
+  "items": [
+    {
+      "card": {
+        "type": "workflow",
+        "payload": {
+
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "flow": "pensionTransfer",
+        "state": "userInfo",
+        "pid": "pid",
+        "output": {
+            "screens": [{
+                "header": [{
+                    "type": "CoreNavBar",
+                    "title": "coreFieldSet: select",
+                    "description": "coreFieldSet: select",
+                    "properties": {
+                        "icon": "cancel"
+                    },
+                    "events": [{
+                        "cmd": "EXIT"
+                    }]
+                }],
+                "widgets": [
+                    {
+                        "type": "CoreFieldSet",
+                        "description": "",
+                        "fields": [{
+                            "id": "fieldSet:select",
+                            "type": "select",
+                            "readonly": true,
+                            "title": "select",
+                            "description": "Тут описание",
+                            "referenceId": "phoneList"
+                        }, {
+                            "id": "fieldSet:select:new",
+                            "type": "select",
+                            "readonly": true,
+                            "format": "radio",
+                            "title": "select",
+                            "referenceId": "phoneList"
+                        } ]
+                    }
+                ],
+                "footer": [
+                ]
+            }],
+            "references": {"phoneList":{
+                "properties":{
+                   "description": "Выберите вариант"
+                },
+                "items":[
+                   {
+                      "title":"+7 905 776-69-33",
+                      "value":"+79057766933"
+                   },
+                   {
+                      "title":"+7 915 748 54 73",
+                      "value":"+79157485473"
+                   },
+                   {
+                      "title":"+7 915 885 56 49",
+                      "value":"+79158855649"
+                   }
+                ]
+             }}
+        }
+    }
+}
+
+              }
+
+          }
+
+
+
+  ]
+}
