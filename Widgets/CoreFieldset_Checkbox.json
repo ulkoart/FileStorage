@@ -5,7 +5,7 @@
       "card": {
         "type": "workflow",
         "payload": {
-         
+
     "success": true,
     "body": {
         "result": "SUCCESS",
@@ -24,7 +24,7 @@
                 }],
                 "widgets": [{
                     "type": "CoreFieldSet",
-                    
+
                     "fields": [{
                         "id": "fieldSet:switch",
                         "type": "checkbox",
@@ -32,6 +32,14 @@
                         "readonly": false,
                         "description": "Description",
                         "title": "checkbox"
+                    },
+                    {
+                        "id": "fieldSet:switch",
+                        "type": "checkbox",
+                        "format": "checkbox",
+                        "readonly": true,
+                        "description": "Description readonly",
+                        "title": "checkbox readonly"
                     }
                   ]
                 }]
@@ -41,10 +49,10 @@
 }
 
               }
-            
+
           }
-        
-      
-    
+
+
+
   ]
 }
