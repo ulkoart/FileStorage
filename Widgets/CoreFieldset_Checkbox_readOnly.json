@@ -31,7 +31,8 @@
                         "format": "checkbox",
                         "readonly": true,
                         "description": "Description",
-                        "title": "checkbox"
+                        "title": "checkbox",
+                        "style":"ds_ic_24_phone"
                     },
                     {
                         "id": "fieldSet:switch",
@@ -39,7 +40,8 @@
                         "format": "checkbox",
                         "readonly": true,
                         "description": "Description readonly",
-                        "title": "checkbox readonly"
+                        "title": "checkbox readonly",
+                        "style":"ds_ic_24_phone"
                     }
                   ]
                 }]
