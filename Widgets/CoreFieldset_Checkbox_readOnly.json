@@ -29,7 +29,7 @@
                         "id": "fieldSet:switch",
                         "type": "checkbox",
                         "format": "checkbox",
-                        "readonly": true,
+                        "readonly": false,
                         "description": "Description",
                         "title": "checkbox",
                         "style":"ds_ic_24_phone"
