@@ -42,7 +42,7 @@
                              "formatConfig":"+7([000]) [00] [00] [00]"
                           },
                           {
-                             "id":"fieldSet:Phone",
+                             "id":"fieldSet:Phone2",
                              "type":"text",
                              "title":"Ввод номера телефона readOnly",
                              "value":"89034517098",
