@@ -26,7 +26,7 @@
                     "type": "CoreFieldSet",
 
                     "fields": [{
-                        "id": "fieldSet:switch",
+                        "id": "fieldSet:switch1",
                         "type": "checkbox",
                         "format": "checkbox",
                         "readonly": false,
@@ -34,7 +34,7 @@
                         "title": "checkbox"
                     },
                     {
-                        "id": "fieldSet:switch",
+                        "id": "fieldSet:switch2",
                         "type": "checkbox",
                         "format": "checkbox",
                         "readonly": true,
