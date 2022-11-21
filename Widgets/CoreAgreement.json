@@ -37,7 +37,7 @@
                             "properties": {},
                             "fields": [
                                 {
-                                    "id": "agreement1",
+                                    "id": "agreement",
                                     "value": "false",
                                     "type": "checkbox",
                                     "referenceId": "agreement",
