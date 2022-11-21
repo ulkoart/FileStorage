@@ -37,7 +37,7 @@
                             "description": "Тут описание",
                             "referenceId": "phoneList"
                         }, {
-                            "id": "fieldSet:select:new",
+                            "id": "fieldSet:select2",
                             "type": "select",
                             "readonly": false,
                             "format": "radio",
