@@ -14,7 +14,7 @@
         "state": "state0",
         "output": {
             "screens": [{
-                "title": "CoreFieldSet: integer",
+                "title": "CoreFieldSet:integer",
                 "header": [{
                     "type": "CoreNavBar",
                     "title": "CoreFieldSet: integer",
