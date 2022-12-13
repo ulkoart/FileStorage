@@ -109,8 +109,8 @@
                                  "properties":{
                                     "disclosure":false,
                                     "icon":"document",
-                                    "devider":"bold",
-                                    "caption":"По курсу 1 = 0.9"
+                                    "caption":"По курсу 1 = 0.9",
+                                    "divider": "spacer16"
                                  },
                                  "fields":[
                                     {
