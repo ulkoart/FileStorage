@@ -110,7 +110,7 @@
                                     "disclosure":false,
                                     "icon":"document",
                                     "caption":"По курсу 1 = 0.9",
-                                    "divider": "spacer16"
+                                    "devider":"bold"
                                  },
                                  "fields":[
                                     {
