@@ -131,7 +131,7 @@
                                  "description":"pdf, md и требуется просмотр всех документов",
                                  "properties":{
                                     "isCheckboxHidden":true,
-                                    "divider": "spacer8"
+                                    "divider": "spacer16"
                                  },
                                  "fields":[
                                     {
