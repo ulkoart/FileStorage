@@ -110,8 +110,7 @@
                                     "disclosure":false,
                                     "icon":"document",
                                     "devider":"bold",
-                                    "caption":"По курсу 1 = 0.9",
-                                    "divider": "spacer16"
+                                    "caption":"По курсу 1 = 0.9"
                                  },
                                  "fields":[
                                     {
@@ -131,8 +130,7 @@
                                  "title":"Документы",
                                  "description":"pdf, md и требуется просмотр всех документов",
                                  "properties":{
-                                    "isCheckboxHidden":true,
-                                    "divider": "spacer16"
+                                    "isCheckboxHidden":true
                                  },
                                  "fields":[
                                     {
