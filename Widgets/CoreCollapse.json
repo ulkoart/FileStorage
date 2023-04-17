@@ -34,7 +34,7 @@
                         }]
                     },
                     {
-                        "type": "CoreFormattedText",
+                        "type": "CoreCell",
                         "visible": {
                             "id": "consent:id:4",
                             "regexp": "true"
