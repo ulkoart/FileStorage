@@ -29,7 +29,7 @@
                             "id": "consent:id:4",
                             "type": "checkbox",
                             "title": "Вот тут coreCollapse",
-                            "value": "false",
+                            "value": "true",
                             "style": "info"
                         }]
                     },
