@@ -58,6 +58,7 @@
                                 {
                                     "uri": "",
                                     "title": "Продолжить",
+                                    "name": "agreementButton",
                                     "description": "Переход на следующий экран"
                                 }
                             ]
