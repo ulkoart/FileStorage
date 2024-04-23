@@ -130,7 +130,7 @@
                                  "title":"Документы",
                                  "description":"pdf, md и требуется просмотр всех документов",
                                  "properties":{
-                                    "isCheckboxHidden":true
+                                    "isCheckboxHidden":false
                                  },
                                  "fields":[
                                     {
