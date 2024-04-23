@@ -1,0 +1,149 @@
+{
+    "type": "sdk_answer",
+    "items": [
+      {
+        "card": {
+          "type": "workflow",
+          "payload": {
+            "success": true,
+            "body": {
+              "result": "SUCCESS",
+              "pid": "80c30504-e9ac-4f63-9d9c-f31cce9f5ae5",
+              "flow": "DemoCoreMoney",
+              "state": "state0",
+              "output": {
+                "screens": [
+                  {
+                    "title": "CoreFieldSet: text",
+                    "widgets": [
+                      {
+                        "type": "CoreTitle",
+                        "fields": [
+                          {
+                            "id": "id:CoreTitle",
+                            "type": "text",
+                            "style": "Стиль",
+                            "title": "Перевод бонусов",
+                            "description": "Ваш баланс 50 000 Б"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "CoreCell",
+                        "properties": {
+                          "disclosure": false,
+                          "icon": "ds_ic_36_handset",
+                          "style": "brandtitle",
+                          "divider": "default"
+                        },
+                        "fields": [
+                          {
+                            "id": "FIO",
+                            "value": "UP_TO_3_GOLD_CARDS",
+                            "title": "+7 900 000-00-00",
+                            "type": "text",
+                            "description": ""
+                          }
+                        ]
+                      },
+                      {
+                        "type": "CoreCell",
+                        "properties": {
+                          "disclosure": false,
+                          "icon": "ds_ic_36_moneybag",
+                          "style": "brandtitle",
+                          "divider": "default"
+                        },
+                        "fields": [
+                          {
+                            "id": "FIO",
+                            "value": "UP_TO_3_GOLD_CARDS",
+                            "title": "10 бонусов",
+                            "type": "text",
+                            "description": "Сумма списания"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "CoreCell",
+                        "readonly": true,
+                        "properties": {
+                          "disclosure": false,
+                          "icon": "ds_ic_36_wallet_lines",
+                          "divider": "none",
+                          "style": "brandtitle",
+                          "caption": "Курс перевода 1 = 0,95"
+                        },
+                        "fields": [
+                          {
+                            "id": "FIO",
+                            "value": "UP_TO_3_GOLD_CARDS",
+                            "title": "9 бонусов",
+                            "readonly": true,
+                            "type": "text",
+                            "description": "Сумма перевода"
+                          }
+                        ]
+                      }
+                    ],
+                    "footer": [
+                      {
+                        "type": "CoreAgreement",
+                        "title": "Правила",
+                        "description": "pdf, md и требуется просмотр всех документов",
+                        "properties": {},
+                        "fields": [
+                          {
+                            "id": "agreement",
+                            "value": "False",
+                            "type": "checkbox",
+                            "referenceId": "agreement",
+                            "title": "Я соглашаюсь <a>с Правилами акции</a>",
+                            "validators": [
+                              {
+                                "type": "required",
+                                "value": "True",
+                                "message": "Вы не согласились с правилами"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "CoreButtons",
+                        "events": [
+                          {
+                            "cmd": "confirm",
+                            "title": "Перевести",
+                            "name": "confirm",
+                            "description": "Переход на следующий экран"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "references": {
+                  "agreement": {
+                    "properties": {
+                      "requireVisitAll": true
+                    },
+                    "items": [
+                      {
+                        "title": "Документ в формате PDF 1",
+                        "value": "agreement-pdf-1",
+                        "properties": {
+                          "format": "pdf",
+                          "src": ""
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
